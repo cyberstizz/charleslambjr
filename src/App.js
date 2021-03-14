@@ -7,14 +7,14 @@ function App() {
     
     <div className="logo">logo</div>
 
-    
+
     <div className="navOptions">
-    <div className="home">home</div>
-    <div className="portfolio">portfolio</div>
-    <div className="lamb">lamb</div>
-    <div className="causes">causes</div>
-    <div className="about">about</div>
-    <div className="journal">journal</div>
+    <div className="home">Home</div>
+    <div className="portfolio">Portfolio</div>
+    <div className="lamb">Lamb</div>
+    <div className="causes">Causes</div>
+    <div className="about">About</div>
+    <div className="journal">Journal</div>
 
     </div>
 

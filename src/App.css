@@ -26,7 +26,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -60,42 +59,48 @@
 .navOptions{
   display: inline-flex;
   flex-direction: row;
-  margin-left: 40vw;
-  margin-top: 4vh;
+  margin-left: 30vw;
+  margin-top: 3vh;
 
 }
 
 .home{
   color: white;
   font-family: 'Indie Flower', cursive;
+  font-size: 28px;
 }
 
 .portfolio{
   margin-left: 3vw;
   color: white;
   font-family: 'Indie Flower', cursive;
+  font-size: 28px;
 }
 
 .lamb{
   margin-left: 3vw;
   color: white;
   font-family: 'Indie Flower', cursive;
+  font-size: 28px;
 }
 
 .causes{
   margin-left: 3vw;
   color: white;
   font-family: 'Indie Flower', cursive;
+  font-size: 28px;
 }
 
 .about{
   margin-left: 3vw;
   color: white;
   font-family: 'Indie Flower', cursive;
+  font-size: 28px;
 }
 
 .journal{
   margin-left: 3vw;
   color: white;
   font-family: 'Indie Flower', cursive;
+  font-size: 28px;
 }
