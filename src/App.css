@@ -1,5 +1,8 @@
+#{
+  margin: none;
+}
+
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -44,4 +47,9 @@
   width: 100vw;
   height: 10vh;
   position: fixed;
+}
+
+.navOptions{
+  display: inline-flex;
+  flex-direction: row;
 }
