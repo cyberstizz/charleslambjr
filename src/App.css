@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 #{
   margin: 0 auto;
 }
@@ -64,28 +66,30 @@
 }
 
 .home{
+  color: white;
 }
 
 .portfolio{
   margin-left: 3vw;
+  color: white;
 }
 
 .lamb{
   margin-left: 3vw;
-
+  color: white;
 }
 
 .causes{
   margin-left: 3vw;
-
+  color: white;
 }
 
 .about{
   margin-left: 3vw;
-
+  color: white;
 }
 
 .journal{
   margin-left: 3vw;
-
+  color: white;
 }
