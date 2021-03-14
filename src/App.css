@@ -43,4 +43,5 @@
   background-color: chartreuse;
   width: 100vw;
   height: 10vh;
+  position: fixed;
 }
