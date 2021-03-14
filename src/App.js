@@ -6,7 +6,14 @@ function App() {
       <div className="navBar">
     
     <div className="logo">logo</div>
-    <div className="navOptions"></div>
+    <div className="navOptions">
+    <div className="portfolio"></div>
+    <div className="lamb"></div>
+    <div className="causes"></div>
+    <div className="about"></div>
+    <div className="journal"></div>
+
+    </div>
 
       </div>
     </div>
