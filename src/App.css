@@ -50,6 +50,10 @@
   position: fixed;
 }
 
+.logo{
+  margin-left: 10vw;
+}
+
 .navOptions{
   display: inline-flex;
   flex-direction: row;
