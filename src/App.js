@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      lets get it started in hear!
+      <div className="navBar"></div>
     </div>
   );
 }
