@@ -7,6 +7,7 @@ function App() {
     
     <div className="logo">logo</div>
     <div className="navOptions">
+    <div className="home"></div>
     <div className="portfolio"></div>
     <div className="lamb"></div>
     <div className="causes"></div>
