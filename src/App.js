@@ -29,8 +29,8 @@ function App() {
       <div className="topSlogan">A passionate software engineer from Harlem New York</div>
       <div className="bottomSlogan">lorem ipsum stuff here</div>
       <div className="buttons">
-      <button>Portfolio</button>
-      <button>Contact</button>
+      <button className="portfolioButton">Portfolio</button>
+      <button className="contactButton">Contact</button>
 
 
       </div>
