@@ -147,7 +147,6 @@
   flex-direction: row;
   margin-top: 210px;
   margin-left: 30px;
-  border: 2px solid;
   width: 40vw;
   height: 50vh;
 }
@@ -167,7 +166,6 @@ left: 1px;
 .greeting{
   height: 8vh;
   width: 20vw;
-  border: 2px black solid;
   margin-top: 2rem;
   margin-left: 8vw;
   font-family: 'Indie Flower', cursive;
@@ -181,7 +179,6 @@ left: 1px;
 .name{
   height: 8vh;
   width: 20vw;
-  border: 2px black solid;
   margin-top: 6rem;
   margin-left: 7vw;
   font-family: 'Indie Flower', cursive;
@@ -192,7 +189,6 @@ left: 1px;
 .topSlogan{
   height: 5vh;
   width: 30vw;
-  border: 2px black solid;
   margin-top: 10rem;
   margin-left: 7vw;
   position: absolute;
@@ -201,7 +197,6 @@ left: 1px;
 .bottomSlogan{
   height: 5vh;
   width: 30vw;
-  border: 2px black solid;
   margin-top: 13rem;
   margin-left: 7vw;
   position: absolute;
@@ -210,7 +205,6 @@ left: 1px;
 .buttons{
   height: 6.5vh;
   width: 30vw;
-  border: 2px black solid;
   margin-top: 16.2rem;
   margin-left: 7vw;
   position: absolute;
@@ -221,6 +215,11 @@ left: 1px;
 .portfolioButton{
   background-color: navy;
   color: orange;
+}
+
+.contactButton{
+  background-color: orange;
+  color: navy;
 }
 
 .rightFoldSection{
