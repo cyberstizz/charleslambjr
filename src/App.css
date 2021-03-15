@@ -214,6 +214,8 @@ left: 1px;
   margin-top: 16.2rem;
   margin-left: 7vw;
   position: absolute;
+  display: inline-flex;
+  flex-direction: row;
 }
 
 .rightFoldSection{
