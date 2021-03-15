@@ -207,6 +207,15 @@ left: 1px;
   position: absolute;
 }
 
+.buttons{
+  height: 6.5vh;
+  width: 30vw;
+  border: 2px black solid;
+  margin-top: 16.2rem;
+  margin-left: 7vw;
+  position: absolute;
+}
+
 .rightFoldSection{
   display: inline-flex;
   flex-direction: row;
