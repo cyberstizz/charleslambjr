@@ -144,7 +144,8 @@
 .leftFoldSection{
   display: inline-flex;
   flex-direction: row;
-  margin-top: 160px;
+  margin-top: 210px;
+  margin-left: 30px;
   border: 2px solid;
   width: 40vw;
   height: 50vh;
