@@ -30,6 +30,10 @@ function App() {
       <div className="bottomSlogan"></div>
       <div className="buttons"></div>
       </div>
+     
+      <div className="rightFoldSection">
+
+      </div>
 
     </div>
   );
