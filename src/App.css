@@ -218,6 +218,11 @@ left: 1px;
   flex-direction: row;
 }
 
+.portfolioButton{
+  background-color: navy;
+  color: orange;
+}
+
 .rightFoldSection{
   display: inline-flex;
   flex-direction: row;
