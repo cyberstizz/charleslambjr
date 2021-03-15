@@ -44,12 +44,21 @@
 
 .navBar{
   display: inline-flex;
-  color: transparent;
   flex-direction: row;
   width: 100vw;
   height: 10vh;
   position: fixed;
   z-index: 10;
+}
+
+.decorativeDiv{
+  background-color: navy;
+  position: absolute;
+  margin-left: 50vw;
+  width: 70vw;
+  height: 100vh;
+  z-index: 10;
+  transform: skewX(30deg);
 }
 
 .logo{
@@ -71,53 +80,60 @@
 }
 
 .home{
-  color: navy;
+  color: white;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
+  z-index: 10;
+
 }
 
 .portfolio{
   margin-left: 3vw;
-  color: navy;
+  color: white;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
+  z-index: 10;
 
 }
 
 .lamb{
   margin-left: 3vw;
-  color: navy;
+  color: white;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
+  z-index: 10;
 
 }
 
 .causes{
   margin-left: 3vw;
-  color: navy;
+  color: white;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
+  z-index: 10;
 
 }
 
 .about{
   margin-left: 3vw;
-  color: navy;
+  color: white;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
+  z-index: 10;
 
 }
 
 .journal{
   margin-left: 3vw;
-  color: navy;
+  color: white;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
+  z-index: 10;
 
 }

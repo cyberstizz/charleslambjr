@@ -3,6 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="decorativeDiv"></div>
       <div className="navBar">
     
     <div className="logo"></div>
