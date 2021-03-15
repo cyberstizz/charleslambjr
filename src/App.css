@@ -61,6 +61,7 @@
   height: 100vh;
   z-index: 10;
   transform: skewX(35deg);
+  overflow: hidden;
 }
 
 .logo{
@@ -195,7 +196,15 @@ left: 1px;
   margin-top: 10rem;
   margin-left: 7vw;
   position: absolute;
+}
 
+.bottomSlogan{
+  height: 5vh;
+  width: 30vw;
+  border: 2px black solid;
+  margin-top: 13rem;
+  margin-left: 7vw;
+  position: absolute;
 }
 
 .rightFoldSection{
