@@ -7,7 +7,7 @@
 .App {
   height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 
 .App-logo {
@@ -63,7 +63,7 @@
   height: 100vh;
   z-index: 10;
   transform: skewX(35deg);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .logo{
@@ -208,7 +208,7 @@ left: 1px;
   height: 6.5vh;
   width: 30vw;
   margin-top: 16.2rem;
-  margin-left: 7vw;
+  margin-left: 12vw;
   position: absolute;
   display: inline-flex;
   flex-direction: row;
@@ -222,6 +222,8 @@ left: 1px;
 .contactButton{
   background-color: orange;
   color: navy;
+  margin-left: 6vw;
+
 }
 
 .rightFoldSection{
