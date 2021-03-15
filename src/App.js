@@ -26,7 +26,7 @@ function App() {
       <br/>
       <br/>
       <div className="name">Charles Lamb Jr.</div>
-      <div className="topSlogan"></div>
+      <div className="topSlogan">A passionate software engineer from Harlem New York</div>
       <div className="bottomSlogan"></div>
       <div className="buttons"></div>
       </div>

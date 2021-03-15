@@ -187,6 +187,16 @@ left: 1px;
   font-weight: bolder;
 }
 
+.topSlogan{
+  height: 5vh;
+  width: 30vw;
+  border: 2px black solid;
+  margin-top: 10rem;
+  margin-left: 7vw;
+  position: absolute;
+
+}
+
 .rightFoldSection{
   display: inline-flex;
   flex-direction: row;
