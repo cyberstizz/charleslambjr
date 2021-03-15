@@ -56,11 +56,11 @@
   position: absolute;
   display: inline-flex;
   flex-direction: row;
-  margin-left: 60vw;
+  margin-left: 55vw;
   width: 70vw;
   height: 100vh;
   z-index: 10;
-  transform: skewX(40deg);
+  transform: skewX(35deg);
 }
 
 .logo{
@@ -139,4 +139,19 @@
   font-weight: bolder;
   z-index: 10;
 
+}
+
+.leftFoldSection{
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 160px;
+  border: 2px solid;
+  width: 40vw;
+  height: 50vh;
+}
+
+.socialMediaButtons{
+background-color: black;
+width: 30vw;
+height: 15vh;
 }

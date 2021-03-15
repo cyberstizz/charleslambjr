@@ -20,6 +20,15 @@ function App() {
     </div>
 
       </div>
+    <div className="leftFoldSection">
+      <div className="socialMediaButtons"></div>
+      <div className="greeting"></div>
+      <div className="name"></div>
+      <div className="topSlogan"></div>
+      <div className="bottomSlogan"></div>
+      <div className="buttons"></div>
+      </div>
+
     </div>
   );
 }
