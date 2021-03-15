@@ -216,14 +216,21 @@ left: 1px;
 
 .portfolioButton{
   background-color: navy;
-  color: orange;
+  color: white;
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  border: solid navy;
 }
 
 .contactButton{
   background-color: orange;
-  color: navy;
+  color: white;
   margin-left: 6vw;
-
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  border: solid orange;
 }
 
 .rightFoldSection{
