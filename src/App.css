@@ -169,7 +169,7 @@ left: 1px;
   height: 8vh;
   width: 20vw;
   margin-top: 2rem;
-  margin-left: 8vw;
+  margin-left: 9.7vw;
   font-family: 'Indie Flower', cursive;
   font-size: 40px;
   font-weight: bolder;
@@ -182,7 +182,7 @@ left: 1px;
   height: 8vh;
   width: 20vw;
   margin-top: 6rem;
-  margin-left: 7vw;
+  margin-left: 7.2vw;
   font-family: 'Indie Flower', cursive;
   font-size: 40px;
   font-weight: bolder;
@@ -192,7 +192,7 @@ left: 1px;
   height: 5vh;
   width: 30vw;
   margin-top: 10rem;
-  margin-left: 7vw;
+  margin-left: 10vw;
   position: absolute;
 }
 
@@ -200,7 +200,7 @@ left: 1px;
   height: 5vh;
   width: 30vw;
   margin-top: 13rem;
-  margin-left: 7vw;
+  margin-left: 10vw;
   position: absolute;
 }
 
@@ -208,7 +208,7 @@ left: 1px;
   height: 6.5vh;
   width: 30vw;
   margin-top: 16.2rem;
-  margin-left: 12vw;
+  margin-left: 9.9vw;
   position: absolute;
   display: inline-flex;
   flex-direction: row;
