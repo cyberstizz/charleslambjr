@@ -215,6 +215,7 @@ left: 1px;
 
 .portfolioButton{
   background-color: navy;
+  font-family: 'Indie Flower', cursive;
   color: white;
   border-radius: 5px;
   width: 120px;
@@ -224,6 +225,7 @@ left: 1px;
 
 .contactButton{
   background-color: orange;
+  font-family: 'Indie Flower', cursive;
   color: white;
   margin-left: 6vw;
   border-radius: 5px;
