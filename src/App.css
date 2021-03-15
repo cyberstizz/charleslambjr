@@ -44,8 +44,8 @@
 
 .navBar{
   display: inline-flex;
+  color: transparent;
   flex-direction: row;
-  background-color: navy;
   width: 100vw;
   height: 10vh;
   position: fixed;
@@ -71,7 +71,7 @@
 }
 
 .home{
-  color: white;
+  color: navy;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
@@ -79,7 +79,7 @@
 
 .portfolio{
   margin-left: 3vw;
-  color: white;
+  color: navy;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
@@ -88,7 +88,7 @@
 
 .lamb{
   margin-left: 3vw;
-  color: white;
+  color: navy;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
@@ -97,7 +97,7 @@
 
 .causes{
   margin-left: 3vw;
-  color: white;
+  color: navy;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
@@ -106,7 +106,7 @@
 
 .about{
   margin-left: 3vw;
-  color: white;
+  color: navy;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
@@ -115,7 +115,7 @@
 
 .journal{
   margin-left: 3vw;
-  color: white;
+  color: navy;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
