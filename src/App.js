@@ -22,8 +22,10 @@ function App() {
       </div>
     <div className="leftFoldSection">
       <div className="socialMediaButtons"></div>
-      <div className="greeting"></div>
-      <div className="name"></div>
+      <div className="greeting">Hello, I'm </div> 
+      <br/>
+      <br/>
+      <div className="name">Charles Lamb Jr.</div>
       <div className="topSlogan"></div>
       <div className="bottomSlogan"></div>
       <div className="buttons"></div>
