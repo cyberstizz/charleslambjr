@@ -186,3 +186,16 @@ left: 1px;
   font-size: 40px;
   font-weight: bolder;
 }
+
+.rightFoldSection{
+  display: inline-flex;
+  flex-direction: row;
+  background-image: url('./_DPL1167-removebg-preview.png');
+  margin-top: 100px;
+  margin-left: 20vw;
+  border: 2px solid;
+  width: 30vw;
+  height: 80vh;
+  z-index: 11;
+  position: absolute;
+}
