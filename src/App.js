@@ -40,6 +40,10 @@ function App() {
 
       </div>
 
+      <div className="skewedBackgroundDecoration"></div>
+
+
+
     </div>
   );
 }

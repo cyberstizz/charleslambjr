@@ -217,8 +217,7 @@ left: 1px;
 .portfolioButton{
   background-color: navy;
   color: white;
-  font-size: 1.1rem;
-  font-weight: bolder;
+  font-weight: bold;
   border-radius: 5px;
   width: 120px;
   height: 50px;
@@ -227,9 +226,8 @@ left: 1px;
 
 .contactButton{
   background-color: orange;
-  font-size: 1.1rem;
-  font-weight: bolder;
   color: white;
+  font-weight: bolder;
   margin-left: 3vw;
   border-radius: 5px;
   width: 120px;
@@ -247,5 +245,17 @@ left: 1px;
   width: 30vw;
   height: 80vh;
   z-index: 11;
+  position: absolute;
+}
+
+.skewedBackgroundDecoration{
+  background-color: orange;
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 126px;
+  margin-left: 20vw;
+  width: 30vw;
+  height: 80vh;
+  z-index: 10;
   position: absolute;
 }
