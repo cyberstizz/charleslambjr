@@ -215,10 +215,10 @@ left: 1px;
 
 .portfolioButton{
   background-color: navy;
+  color: orange;
   font-family: 'Indie Flower', cursive;
   font-size: 1.2rem;
   font-weight: bolder;
-  color: white;
   border-radius: 5px;
   width: 120px;
   height: 50px;
@@ -230,7 +230,7 @@ left: 1px;
   font-family: 'Indie Flower', cursive;
   font-size: 1.2rem;
   font-weight: bolder;
-  color: white;
+  color: navy;
   margin-left: 6vw;
   border-radius: 5px;
   width: 120px;
