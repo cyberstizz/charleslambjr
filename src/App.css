@@ -154,14 +154,11 @@
 }
 
 .socialMediaButtons{
-background-color: white;
+background-color: silver;
 margin-top: 1rem;
 border: 2px black solid;
-border-top-left-radius: 60%;
-border-top-right-radius: 60%;
-border-bottom-left-radius: 60%;
-border-bottom-right-radius: 60%;
-width: 2.5vw;
+border-collapse: collapse;
+width: 3.5vw;
 height: 40vh;
 left: 1px;
 }
@@ -225,7 +222,7 @@ left: 1px;
 }
 
 .contactButton{
-  background-color: orange;
+  background-color: rgb(250, 178, 43);
   color: white;
   font-weight: bolder;
   margin-left: 3vw;
@@ -249,7 +246,7 @@ left: 1px;
 }
 
 .skewedBackgroundDecoration{
-  background-color: orange;
+  background-color: rgb(250, 178, 43);
   display: inline-flex;
   flex-direction: row;
   margin-top: 190px;
