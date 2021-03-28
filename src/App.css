@@ -59,11 +59,11 @@
   position: absolute;
   display: inline-flex;
   flex-direction: row;
-  margin-left: 55vw;
+  margin-left: 52vw;
   width: 70vw;
   height: 100vh;
   z-index: 10;
-  transform: skew(35deg);
+  transform: skew(31deg);
   overflow-x: hidden;
 }
 
@@ -83,7 +83,6 @@
   flex-direction: row;
   margin-left: 7vw;
   margin-top: 3vh;
-
 }
 
 .home{
