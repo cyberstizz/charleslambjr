@@ -150,6 +150,70 @@
 
 }
 
+.home:hover{
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.portfolio:hover{
+  margin-left: 1vw;
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.lamb:hover{
+  margin-left: 1vw;
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.causes:hover{
+  margin-left: 1vw;
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.about:hover{
+  margin-left: 1vw;
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.journal:hover{
+  margin-left: 1vw;
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+
+}
+
 .leftFoldSection{
   display: inline-flex;
   flex-direction: row;
