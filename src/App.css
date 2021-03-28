@@ -214,6 +214,7 @@
   position: absolute;
   display: inline-flex;
   flex-direction: row;
+  overflow:visible
 }
 
 .portfolioButton{
