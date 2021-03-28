@@ -7,7 +7,7 @@ function App() {
       <div className="navBar">
     
     <div className="logo"></div>
-
+    just a change to test
 
     <div className="navOptions">
     <div className="home">Home</div>
