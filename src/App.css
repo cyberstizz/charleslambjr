@@ -91,51 +91,56 @@
   font-size: 28px;
   font-weight: bolder;
   z-index: 10;
-
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
 }
 
 .portfolio{
-  margin-left: 3vw;
+  margin-left: 1vw;
   color: white;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
   z-index: 10;
-
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
 }
 
 .lamb{
-  margin-left: 3vw;
+  margin-left: 1vw;
   color: white;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
   z-index: 10;
-
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
 }
 
 .causes{
-  margin-left: 3vw;
+  margin-left: 1vw;
   color: white;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
   z-index: 10;
-
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
 }
 
 .about{
-  margin-left: 3vw;
+  margin-left: 1vw;
   color: white;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: bolder;
   z-index: 10;
-
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
 }
 
 .journal{
-  margin-left: 3vw;
+  margin-left: 1vw;
   color: white;
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
