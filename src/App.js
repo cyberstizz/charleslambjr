@@ -20,7 +20,26 @@ function App() {
 
       </div>
     <div className="leftFoldSection">
-      <div className="socialMediaButtons"></div>
+      <div className="socialMediaButtons">
+
+      <div class="footer-social-icons">
+    <h4 class="_14">Follow me on</h4>
+    <ul class="social-icons">
+   
+    <li><a href="" class="social-icon">
+ <i class="fa fa-twitter"></i></a></li>
+
+    <li><a href="" class="social-icon"> 
+ <i class="fa fa-youtube"></i></a></li>
+    <li><a href="" class="social-icon"> 
+ <i class="fa fa-linkedin"></i></a></li>
+    <li><a href="" class="social-icon"> 
+ <i class="fa fa-github"></i></a></li>
+    </ul>
+</div>
+
+
+      </div>
       <div className="greeting">Hello, I'm </div> 
       <br/>
       <br/>

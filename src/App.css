@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-#{
+*{
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .App {
@@ -159,13 +160,12 @@
 }
 
 .socialMediaButtons{
-background-color: silver;
-margin-top: 1rem;
-border: 2px black solid;
-border-collapse: collapse;
-width: 3.5vw;
-height: 40vh;
-left: 1px;
+  width: 100px;
+  height: 200px;
+  background: white;
+  border-radius: 100px / 50px;
+  left: 1px;
+  position: absolute;
 }
 
 .greeting{
@@ -261,4 +261,90 @@ left: 1px;
   z-index: 10;
   position: absolute;
   transform: skew(25deg, 10deg);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+p > a:hover{
+  color: #d9d9d9;
+  text-decoration:  underline;
+}
+
+._14 {
+  font-size: 1.4em;
+}
+
+.footer-social-icons {
+  height: 350px;
+  display:block;
+  margin-right: 2px;
+  position: absolute;
+
+}
+.social-icon {
+  color: #fff;
+}
+ul.social-icons {
+  margin-top: 10px;
+}
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-twitter {
+  padding:10px 12px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+
+.fa-youtube {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-youtube:hover {
+  background-color: #e64a41;
+}
+.fa-linkedin {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-linkedin:hover {
+  background-color: #0073a4;
+}
+.fa-github {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-github:hover {
+  background-color: #5a32a3;
 }
