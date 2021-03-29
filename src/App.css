@@ -45,15 +45,7 @@
   }
 }
 
-.transparent-background{
-  z-index: 1000;
-  height: 70vh;
-  width: 50vw;
-  opacity: 40%;
-  margin-top: 90px;
-  position: absolute;
-  background-image: url('./black-male-in-front-of-computer-screen-coding-mobi-FG56A3Q\ \(1\).jpg');
-}
+
 
 .navBar{
   display: inline-flex;
@@ -271,7 +263,7 @@
   margin-top: 10rem;
   margin-left: 9.9vw;
   position: absolute;
-  color: gray;
+  color: orange;
   font-weight: bold;
   font-size: 17px;
   font-family: 'Courier New', Courier, monospace;
@@ -285,7 +277,7 @@
   margin-top: 12rem;
   margin-left: 9.9vw;
   position: absolute;
-  color: gray;
+  color: orange;
   font-weight: bold;
   letter-spacing: .009rem;
   font-family: 'Courier New', Courier, monospace;
