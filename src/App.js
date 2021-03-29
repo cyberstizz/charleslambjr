@@ -37,7 +37,10 @@ function App() {
       <div className="topSlogan">A passionate software engineer from New York</div>
       <div className="bottomSlogan">with two years of web development experience</div>
       <div className="contactArea">
-          <div className="emailcontact"></div>
+          <div className="githubContact">
+          <i class="fa fa-github"></i></div>
+          <div className="githubInfo">github.com/cyberstizz</div>
+      
           <div className="phonecontact"></div>
       </div>
       <div className="buttons">

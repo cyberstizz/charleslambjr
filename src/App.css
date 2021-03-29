@@ -387,3 +387,23 @@ color: white;
 background: orange;
 color: white;
 }
+
+.fa-github{
+  padding: 0;
+  margin-right: 350px;
+  margin-top: 15px;
+  color: orange;
+}
+
+.githubContact{
+width: 25vw;
+height: 10vh;
+overflow: visible;
+position: absolute;
+}
+
+.githubInfo{
+  margin-left: 35px;
+  margin-top: 22px;
+  position: absolute;
+}
