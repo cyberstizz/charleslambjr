@@ -289,10 +289,20 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+.contactArea{
+  height: 10vh;
+  width: 30vw;
+  border: solid black 2px;
+  position: absolute;
+  margin-top: 13.2rem;
+  margin-left: 9.5vw;
+  display: inline-flex;
+}
+
 .buttons{
   height: 6.5vh;
   width: 30vw;
-  margin-top: 16.2rem;
+  margin-top: 18.2rem;
   margin-left: 6.5vw;
   position: absolute;
   display: inline-flex;
