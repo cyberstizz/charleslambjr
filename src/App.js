@@ -23,9 +23,9 @@ function App() {
     <div className="leftFoldSection">
       <div className="socialMediaButtons">
 
-      <a href="https://www.youtube.com/channel/UCK85fCsjJ53CrOzVnmTbp-A" class="fa fa-youtube"></a>
-      <a href="https://www.linkedin.com/in/charles-lamb-jr/" class="fa fa-linkedin"></a>
-      <a href="https://www.instagram.com/charleslambjrdev/" class="fa fa-instagram"></a>
+      <a href="https://www.youtube.com/channel/UCK85fCsjJ53CrOzVnmTbp-A" class="fa fa-youtube" alt="youtube in link"></a>
+      <a href="https://www.linkedin.com/in/charles-lamb-jr/" class="fa fa-linkedin" alt="linked in link"></a>
+      <a href="https://www.instagram.com/charleslambjrdev/" class="fa fa-instagram" alt="instgram in link"></a>
 
 
 
