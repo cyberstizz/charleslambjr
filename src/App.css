@@ -72,13 +72,16 @@
 
 .logo{
   margin-left: 10vw;
-  margin-top: 2vh;
+  margin-top: .4vh;
   background-image: url("./charleslamb3264.png");
   background-size: cover;
+  background-size: 110%;
   background-repeat: no-repeat;
-  background-position: 100%;
+  background-position: cover;
   height: 62px;
-  width: 260px;
+  width: 280px;
+  padding-right: 10px;
+  overflow: visible;
 }
 
 .navOptions{
