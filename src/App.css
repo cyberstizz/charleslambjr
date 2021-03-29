@@ -230,7 +230,8 @@
   height: 200px;
   background: white;
   border-radius: 100px / 50px;
-  left: 1px;
+  left: 35px;
+  margin-top: 35px;
   position: absolute;
   overflow: visible;
 }
@@ -277,7 +278,7 @@
   margin-top: 12rem;
   margin-left: 9.9vw;
   position: absolute;
-  color: orange;
+  color: navy;
   font-weight: bold;
   letter-spacing: .009rem;
   font-family: 'Courier New', Courier, monospace;
