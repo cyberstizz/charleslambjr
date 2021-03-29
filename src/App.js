@@ -36,6 +36,10 @@ function App() {
       <div className="name">Charles Lamb Jr.</div>
       <div className="topSlogan">A passionate software engineer from New York</div>
       <div className="bottomSlogan">with two years of web development experience</div>
+      <div className="contactArea">
+          <div className="emailcontact"></div>
+          <div className="phonecontact"></div>
+      </div>
       <div className="buttons">
       <button className="portfolioButton">Portfolio</button>
       <button className="contactButton">Contact</button>
