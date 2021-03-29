@@ -45,6 +45,16 @@
   }
 }
 
+.transparent-background{
+  z-index: 1000;
+  height: 70vh;
+  width: 50vw;
+  opacity: 40%;
+  margin-top: 90px;
+  position: absolute;
+  background-image: url('./black-male-in-front-of-computer-screen-coding-mobi-FG56A3Q\ \(1\).jpg');
+}
+
 .navBar{
   display: inline-flex;
   flex-direction: row;
@@ -263,6 +273,7 @@
   position: absolute;
   color: gray;
   font-weight: bold;
+  font-size: 17px;
   font-family: 'Courier New', Courier, monospace;
   overflow: visible;
 }
@@ -270,6 +281,7 @@
 .bottomSlogan{
   height: 5vh;
   width: 34vw;
+  font-size: 17px;
   margin-top: 12rem;
   margin-left: 9.9vw;
   position: absolute;
