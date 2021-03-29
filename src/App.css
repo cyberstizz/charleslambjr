@@ -257,18 +257,26 @@
 
 .topSlogan{
   height: 5vh;
-  width: 30vw;
+  width: 34vw;
   margin-top: 10rem;
-  margin-left: 9.9vw;
+  margin-left: 9.8vw;
   position: absolute;
+  color: gray;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  overflow: visible;
 }
 
 .bottomSlogan{
   height: 5vh;
-  width: 30vw;
-  margin-top: 13rem;
+  width: 34vw;
+  margin-top: 12rem;
   margin-left: 9.9vw;
   position: absolute;
+  color: gray;
+  font-weight: bold;
+  letter-spacing: .009rem;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .buttons{
