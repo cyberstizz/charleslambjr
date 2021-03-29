@@ -45,7 +45,7 @@ function App() {
       </div>
       <div className="buttons">
       <button className="portfolioButton">Portfolio</button>
-      <button className="contactButton">Contact</button>
+      <button className="resumeButton">Resume</button>
 
 
       </div>
