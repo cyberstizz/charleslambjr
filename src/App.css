@@ -365,6 +365,7 @@
 .fa-linkedin {
 background: navy;
 color: white;
+overflow: hidden;
 }
 
 .fa-youtube {
