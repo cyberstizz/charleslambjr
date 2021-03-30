@@ -58,7 +58,7 @@
 }
 
 .decorativeDiv{
-  background-color: navy;
+  background-color: rgb(0, 34, 102);
   position: absolute;
   display: inline-flex;
   flex-direction: row;
@@ -249,7 +249,8 @@
   font-family: 'Indie Flower', cursive;
   font-size: 40px;
   font-weight: bolder;
-  color: navy;
+  letter-spacing: .3rem;
+  color: rgb(0, 34, 102);
   position: absolute;
 }
 
@@ -283,7 +284,7 @@
   margin-top: 12rem;
   margin-left: 9.9vw;
   position: absolute;
-  color: navy;
+  color: rgb(0, 34, 102);
   font-weight: bold;
   letter-spacing: .009rem;
   font-family: 'Courier New', Courier, monospace;
@@ -311,13 +312,13 @@
 }
 
 .portfolioButton{
-  background-color: navy;
+  background-color: rgb(0, 34, 102);
   color: white;
   font-weight: bold;
   border-radius: 5px;
   width: 120px;
   height: 50px;
-  border: solid navy;
+  border: solid rgb(0, 26, 77);
 }
 
 .resumeButton{
@@ -373,7 +374,7 @@
 
 
 .fa-linkedin {
-background: navy;
+background: rgb(0, 34, 102);
 color: white;
 overflow: hidden;
 }
@@ -409,7 +410,7 @@ position: absolute;
 }
 
 .emailInfo{
-  background: navy;
+  background: rgb(0, 34, 102);
   margin-left: 250px;
   margin-top: 21px; 
   width: 2vw;
