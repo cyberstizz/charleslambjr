@@ -41,7 +41,7 @@ function App() {
           <i class="fa fa-github"></i></div>
           <div className="githubInfo">github.com/cyberstizz</div>
       
-          <div className="phonecontact"></div>
+          <div className="emailInfo"></div>
       </div>
       <div className="buttons">
       <button className="portfolioButton">Portfolio</button>

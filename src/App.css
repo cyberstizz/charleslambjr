@@ -292,7 +292,6 @@
 .contactArea{
   height: 10vh;
   width: 30vw;
-  border: solid black 2px;
   position: absolute;
   margin-top: 13.2rem;
   margin-left: 9.5vw;
@@ -406,4 +405,16 @@ position: absolute;
   margin-left: 35px;
   margin-top: 22px;
   position: absolute;
+}
+
+.emailInfo{
+  background: navy;
+  margin-left: 250px;
+  margin-top: 10px; 
+  width: 3vw;
+  height: 7vh;
+  border-radius:40px;
+  position: absolute;
+  box-shadow:0 0 10px 3px black;
+  overflow: visible;
 }
