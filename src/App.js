@@ -38,7 +38,7 @@ function App() {
       <div className="bottomSlogan">with two years of web development experience</div>
       <div className="contactArea">
           <div className="githubContact">
-          <i class="fa fa-github"></i></div>
+          <a href="https://github.com/cyberstizz"><i class="fa fa-github"></i></a></div>
           <div className="githubInfo">github.com/cyberstizz</div>
       
           <div className="emailInfo"></div><div className="actualEmail">charles.lamb.dev@gmail.com</div>
