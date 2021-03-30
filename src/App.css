@@ -390,7 +390,7 @@ color: white;
 .fa-github{
   padding: 0;
   margin-right: 350px;
-  margin-top: 15px;
+  margin-top: 25px;
   color: orange;
 }
 
@@ -403,19 +403,20 @@ position: absolute;
 
 .githubInfo{
   margin-left: 35px;
-  margin-top: 22px;
+  margin-top: 32px;
   position: absolute;
 }
 
 .emailInfo{
   background: navy;
   margin-left: 250px;
-  margin-top: 2px; 
-  width: 4vw;
-  height: 9vh;
+  margin-top: 21px; 
+  width: 2vw;
+  height: 5vh;
   position: absolute;
-  overflow: visible;
-  background-size: cover;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-image: url('./download.png');
 }
 
