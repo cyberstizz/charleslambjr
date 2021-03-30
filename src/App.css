@@ -269,7 +269,7 @@
   margin-top: 10rem;
   margin-left: 9.9vw;
   position: absolute;
-  color: orange;
+  color: rgb(249, 140, 31);
   font-weight: bold;
   font-size: 17px;
   font-family: 'Courier New', Courier, monospace;
@@ -321,7 +321,7 @@
 }
 
 .resumeButton{
-  background-color: rgb(250, 178, 43);
+  background-color: rgb(249, 140, 31);
   color: white;
   font-weight: bolder;
   margin-left: .1vw;
@@ -345,7 +345,7 @@
 }
 
 .skewedBackgroundDecoration{
-  background-color: rgb(250, 178, 43);
+  background-color: rgb(249, 140, 31);
   display: inline-flex;
   flex-direction: row;
   margin-top: 190px;
@@ -379,12 +379,12 @@ overflow: hidden;
 }
 
 .fa-youtube {
-background: orange;
+background: rgb(249, 140, 31);
 color: white;
 }
 
 .fa-instagram {
-background: orange;
+background: rgb(249, 140, 31);
 color: white;
 }
 
@@ -392,7 +392,7 @@ color: white;
   padding: 0;
   margin-right: 350px;
   margin-top: 25px;
-  color: orange;
+  color: rgb(249, 140, 31);
 }
 
 .githubContact{
