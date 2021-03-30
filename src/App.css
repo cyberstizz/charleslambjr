@@ -410,11 +410,12 @@ position: absolute;
 .emailInfo{
   background: navy;
   margin-left: 250px;
-  margin-top: 10px; 
-  width: 3vw;
-  height: 7vh;
-  border-radius:40px;
+  margin-top: 2px; 
+  width: 4vw;
+  height: 9vh;
   position: absolute;
-  box-shadow:0 0 10px 3px black;
   overflow: visible;
+  background-size: cover;
+  background-image: url('./download.png');
 }
+
