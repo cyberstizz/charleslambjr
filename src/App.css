@@ -303,7 +303,7 @@
   height: 6.5vh;
   width: 30vw;
   margin-top: 18.2rem;
-  margin-left: 6.5vw;
+  margin-left: 10vw;
   position: absolute;
   display: inline-flex;
   flex-direction: row;
@@ -324,7 +324,7 @@
   background-color: rgb(250, 178, 43);
   color: white;
   font-weight: bolder;
-  margin-left: 3vw;
+  margin-left: .1vw;
   border-radius: 5px;
   width: 120px;
   height: 50px;
