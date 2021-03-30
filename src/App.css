@@ -296,6 +296,7 @@
   margin-top: 13.2rem;
   margin-left: 9.5vw;
   display: inline-flex;
+  overflow: visible;
 }
 
 .buttons{
@@ -418,5 +419,12 @@ position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url('./download.png');
+}
+
+.actualEmail{
+  position: absolute;
+  margin-left: 21vw;
+  margin-top: 31.5px;
+  overflow: visible;
 }
 
