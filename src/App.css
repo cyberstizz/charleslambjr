@@ -408,6 +408,7 @@ position: absolute;
   margin-left: 35px;
   margin-top: 32px;
   position: absolute;
+  overflow: hidden;
 }
 
 .emailInfo{
@@ -416,7 +417,7 @@ position: absolute;
   margin-top: 21px; 
   width: 2vw;
   height: 5vh;
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   background-size: contain;
   background-repeat: no-repeat;

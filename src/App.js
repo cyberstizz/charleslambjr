@@ -47,7 +47,7 @@ function App() {
           <a href="https://github.com/cyberstizz"><i class="fa fa-github"></i></a></div>
           <div className="githubInfo">github.com/cyberstizz</div>
       
-          <div className="emailInfo"></div><div className="actualEmail">charles.lamb.dev@gmail.com</div>
+          <a href="mailto:charles.lamb.dev@gmail.com"> <div className="emailInfo"></div><div className="actualEmail">charles.lamb.dev@gmail.com</div></a>
       </div>
       <div className="buttons">
       <button className="projectButton">Projects</button>
