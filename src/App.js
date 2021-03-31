@@ -50,7 +50,7 @@ function App() {
           <div className="emailInfo"></div><div className="actualEmail">charles.lamb.dev@gmail.com</div>
       </div>
       <div className="buttons">
-      <button className="portfolioButton">Portfolio</button>
+      <button className="portfolioButton">Projects</button>
 
 
       
