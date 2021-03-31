@@ -12,9 +12,8 @@ function App() {
 
       <div className="transparent-background"></div>
       <div className="decorativeDiv"></div>
-      <div className="navBar">
-    
-    <div className="logo"></div>
+      <div className="navBar" onScroll={() => document.getElementsByClassName("navBar").style.backgroundColor = "black"}>
+      <div className="logo"></div>
 
     <div className="navOptions">
     <div className="home">Home</div>

@@ -55,6 +55,7 @@
   position: fixed;
   z-index: 10;
   box-shadow: 0px -8px 40px lightgrey;
+  background-color: transparent;
 }
 
 .decorativeDiv{
