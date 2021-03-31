@@ -7,7 +7,7 @@ function App() {
     
     <div className="App">
      <div id="resumeDiv">
-     <button id="ResumeCloseButton">close</button>
+     <button id="ResumeCloseButton" onClick={() => document.getElementById("resumeDiv").style.visibility = "hidden"}>close</button>
       </div>
 
       <div className="transparent-background"></div>
