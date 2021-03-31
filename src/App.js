@@ -5,14 +5,14 @@ function App() {
   return (
 
     
-    <div className="App">
+    <div className="App" onScroll={() => document.getElementsByClassName("navBar").style.backgroundColor = "black"}>
      <div id="resumeDiv">
      <button id="ResumeCloseButton" onClick={() => document.getElementById("resumeDiv").style.visibility = "hidden"}>close</button>
       </div>
 
       <div className="transparent-background"></div>
       <div className="decorativeDiv"></div>
-      <div className="navBar" onScroll={() => document.getElementsByClassName("navBar").style.backgroundColor = "black"}>
+      <div className="navBar">
       <div className="logo"></div>
 
     <div className="navOptions">
@@ -66,8 +66,6 @@ function App() {
 
       <div className="skewedBackgroundDecoration"></div>
         
-        
-
 
 
     </div>
