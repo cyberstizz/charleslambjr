@@ -402,6 +402,7 @@ width: 25vw;
 height: 10vh;
 overflow: visible;
 position: absolute;
+overflow: hidden;
 }
 
 .githubInfo{
@@ -424,8 +425,13 @@ position: absolute;
   background-image: url('./download.png');
 }
 
+#highlightedEmail{
+  color: black;
+}
+
 .actualEmail{
   position: absolute;
+  user-select: auto;
   margin-left: 5vw;
   margin-top: 31.5px;
   overflow: visible;
