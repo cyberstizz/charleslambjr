@@ -413,7 +413,7 @@ position: absolute;
 
 .emailInfo{
   background: rgb(0, 34, 102);
-  margin-left: 250px;
+  margin-left: 30px;
   margin-top: 21px; 
   width: 2vw;
   height: 5vh;
@@ -426,7 +426,7 @@ position: absolute;
 
 .actualEmail{
   position: absolute;
-  margin-left: 21vw;
+  margin-left: 5vw;
   margin-top: 31.5px;
   overflow: visible;
 }
