@@ -1,16 +1,13 @@
 import './App.css';
 
-function App() {
-  //   const resume = document.getElementById('resumeDiv')
-  
-  // const resumePopup = resume.style.visibility == "visible" ? resume.style.visibility = "hidden" : resume.style.visibility = "visible"
+function App() {  
 
   return (
 
     
     <div className="App">
      <div id="resumeDiv">
-     <div id="fullResume"></div>
+     <button id="ResumeCloseButton">close</button>
       </div>
 
       <div className="transparent-background"></div>
