@@ -103,7 +103,7 @@
   padding-right: 1vw;
 }
 
-.portfolio{
+.projects{
   margin-left: 1vw;
   color: white;
   font-family: 'Indie Flower', cursive;
@@ -114,18 +114,7 @@
   padding-right: 1vw;
 }
 
-.lamb{
-  margin-left: 1vw;
-  color: white;
-  font-family: 'Indie Flower', cursive;
-  font-size: 28px;
-  font-weight: bolder;
-  z-index: 10;
-  border-right: solid rgb(134, 193, 212);
-  padding-right: 1vw;
-}
-
-.causes{
+.challenges{
   margin-left: 1vw;
   color: white;
   font-family: 'Indie Flower', cursive;
@@ -137,6 +126,17 @@
 }
 
 .about{
+  margin-left: 1vw;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.lamb{
   margin-left: 1vw;
   color: white;
   font-family: 'Indie Flower', cursive;
@@ -167,7 +167,7 @@
   padding-right: 1vw;
 }
 
-.portfolio:hover{
+.projects:hover{
   margin-left: 1vw;
   color: orange;
   font-family: 'Indie Flower', cursive;
@@ -178,18 +178,7 @@
   padding-right: 1vw;
 }
 
-.lamb:hover{
-  margin-left: 1vw;
-  color: orange;
-  font-family: 'Indie Flower', cursive;
-  font-size: 28px;
-  font-weight: bolder;
-  z-index: 10;
-  border-right: solid rgb(134, 193, 212);
-  padding-right: 1vw;
-}
-
-.causes:hover{
+.challenges:hover{
   margin-left: 1vw;
   color: orange;
   font-family: 'Indie Flower', cursive;
@@ -201,6 +190,17 @@
 }
 
 .about:hover{
+  margin-left: 1vw;
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.lamb:hover{
   margin-left: 1vw;
   color: orange;
   font-family: 'Indie Flower', cursive;
@@ -312,7 +312,7 @@
   overflow:visible
 }
 
-.portfolioButton{
+.projectButton{
   background-color: rgb(0, 34, 102);
   color: white;
   font-weight: bold;

@@ -17,10 +17,10 @@ function App() {
 
     <div className="navOptions">
     <div className="home">Home</div>
-    <div className="portfolio">Projects</div>
-    <div className="lamb">Challenges</div>
-    <div className="causes">About</div>
-    <div className="about">Lamb</div>
+    <div className="projects">Projects</div>
+    <div className="challenges">Challenges</div>
+    <div className="about">About</div>
+    <div className="lamb">Lamb</div>
     <div className="journal">Journal</div>
 
     </div>
@@ -50,7 +50,7 @@ function App() {
           <div className="emailInfo"></div><div className="actualEmail">charles.lamb.dev@gmail.com</div>
       </div>
       <div className="buttons">
-      <button className="portfolioButton">Projects</button>
+      <button className="projectButton">Projects</button>
 
 
       
