@@ -17,10 +17,10 @@ function App() {
 
     <div className="navOptions">
     <div className="home">Home</div>
-    <div className="portfolio">Portfolio</div>
-    <div className="lamb">Lamb</div>
-    <div className="causes">Causes</div>
-    <div className="about">About</div>
+    <div className="portfolio">Projects</div>
+    <div className="lamb">Challenges</div>
+    <div className="causes">About</div>
+    <div className="about">Lamb</div>
     <div className="journal">Journal</div>
 
     </div>
