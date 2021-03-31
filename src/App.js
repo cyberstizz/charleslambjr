@@ -3,12 +3,19 @@ import { Router, Route, Switch, Link } from "react-router";
 const App = () => {  
 
   return (
-
+    <Router>
+      <div>
     
-    <div className="App" onScroll={() => document.getElementsByClassName("navBar").style.backgroundColor = "black"}>
-     <div id="resumeDiv">
-     <button id="ResumeCloseButton" onClick={() => document.getElementById("resumeDiv").style.visibility = "hidden"}>close</button>
-      </div>
+    <div className="App">
+     <Switch>
+       <Route exact path="/" component={App} />
+       <Route path="/projects" component={Projects} />
+       <Route path="/challenges" component={Challenges} />
+       <Route  path="/about" component={About} />
+       <Route path="/lamb" component={Lamb} />
+       <Route path="/journal" component={Journal} />
+
+     </Switch>
 
       <div className="transparent-background"></div>
       <div className="decorativeDiv"></div>
@@ -26,6 +33,9 @@ const App = () => {
     </div>
 
       </div>
+
+    
+      
     <div className="leftFoldSection">
       <div className="socialMediaButtons">
 
@@ -65,10 +75,14 @@ const App = () => {
       </div>
 
       <div className="skewedBackgroundDecoration"></div>
-        
+      <div id="resumeDiv">
+     <button id="ResumeCloseButton" onClick={() => document.getElementById("resumeDiv").style.visibility = "hidden"}>close</button>
+      </div>
 
 
     </div>
+  </div>
+</Router>
   );
   }
 

@@ -52,7 +52,7 @@
   flex-direction: row;
   width: 100vw;
   height: 10vh;
-  position: fixed;
+  position: absolute;
   z-index: 10;
   box-shadow: 0px -8px 40px lightgrey;
   background-color: transparent;
