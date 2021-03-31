@@ -1,19 +1,18 @@
 import './App.css';
 
 function App() {
-
-  const resume = document.getElementById('resumeDiv')
+  //   const resume = document.getElementById('resumeDiv')
   
-  const resumePopup = () =>{
-    if(resume.style.display === "visible"){
-      resume.style.display = "hidden";
-      return;
-    }
-    resume.display = "visible";
-  }
+  // const resumePopup = resume.style.visibility == "visible" ? resume.style.visibility = "hidden" : resume.style.visibility = "visible"
 
   return (
+
+    
     <div className="App">
+     <div id="resumeDiv">
+     <div id="fullResume"></div>
+      </div>
+
       <div className="transparent-background"></div>
       <div className="decorativeDiv"></div>
       <div className="navBar">
@@ -56,7 +55,10 @@ function App() {
       </div>
       <div className="buttons">
       <button className="portfolioButton">Portfolio</button>
-      <button className="resumeButton" onClick={resumePopup}>Resume</button>
+
+
+      
+      <button className="resumeButton" onClick={() => document.getElementById("resumeDiv").style.visibility = "visible"}>Resume</button>
 
 
       </div>
@@ -67,15 +69,13 @@ function App() {
       </div>
 
       <div className="skewedBackgroundDecoration"></div>
-
-      <div id="resumeDiv">
-        <div id="fullResume"></div>
-      </div>
+        
+        
 
 
 
     </div>
   );
-}
+  }
 
 export default App;

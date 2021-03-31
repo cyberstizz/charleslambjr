@@ -429,3 +429,20 @@ position: absolute;
   overflow: visible;
 }
 
+#resumeDiv{
+  visibility: hidden;
+  position: absolute;
+  background-image: url("./0001.jpg");
+  background-position: contain;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 200;
+  height: 90vh;
+  width: 45vw;
+  border: solid rgb(249, 140, 31) 4px;
+  top: .2vh;
+  bottom: 10px;
+  left: 20vw;
+  overflow: visible;
+}
+
