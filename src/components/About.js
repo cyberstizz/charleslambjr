@@ -2,10 +2,7 @@ import React from 'react';
 
 
 const About = () =>{
-
-return "chickenwings"
-
-
+return "chickenwings";
 }
 
 export default About;

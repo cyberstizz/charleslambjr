@@ -1,6 +1,13 @@
 import '../App.css';
+import App from '../App';
 import React from 'react';
-
+import Home from './Home';
+import About from './About';
+import Challenges from './Challenges';
+import Journal from './Journal';
+import Lamb from './Lamb';
+import Projects from './Projects';
+import { Link } from "react-router-dom"
 
 const Navbar = () =>{
     return(
@@ -10,12 +17,12 @@ const Navbar = () =>{
 
     <div className="navOptions">
       
-   <div className="home">Home</div>
-   <div className="projects">Projects</div>
-   <div className="challenges">Challenges</div>
-   <div className="about">About</div>
-   <div className="lamb">Lamb</div>
-   <div className="journal">Journal</div>
+ <Link to='/'>  <div className="home">Home</div></Link> 
+  <Link to={Projects}> <div className="projects">Projects</div></Link>
+  <Link to={Challenges}> <div className="challenges">Challenges</div></Link>
+  <Link to={About}> <div className="about">About</div></Link>
+  <Link to={Lamb}>  <div className="lamb">Lamb</div></Link>
+  <Link to={Journal}>  <div className="journal">Journal</div></Link>
   
     </div>
 
