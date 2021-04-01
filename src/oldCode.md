@@ -13,6 +13,7 @@ const App = () => {
     
      
      <div className="App">
+      <div className="transparent-background"></div>
       <div className="decorativeDiv"></div>
       <div className="navBar">
       <div className="logo"></div>
