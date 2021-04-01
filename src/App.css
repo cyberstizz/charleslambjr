@@ -444,7 +444,7 @@ overflow: hidden;
   background-position: contain;
   background-size: 100%;
   background-repeat: no-repeat;
-  z-index: 200;
+  z-index: 10001;
   height: 90vh;
   width: 45vw;
   border: solid rgb(249, 140, 31) 4px;
