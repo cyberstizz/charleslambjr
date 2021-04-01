@@ -15,19 +15,19 @@ const App = () => {
     <Router>
      <div className="App">
        <Navbar />
-       <Home />
+       {/* <Home /> */}
 
-      </div>
-      {/* <Switch>
-       <Route exact path="/"><App /></Route>
+    
+      <Switch>
+       <Route exact path="/"><Home /></Route>
        <Route path="/projects"><Projects /></Route>
        <Route path="/challenges"><Challenges /></Route>
        <Route path="/about"><About /></Route>
        <Route path="/lamb"><Lamb /></Route>
        <Route path="/journal"><Journal /></Route>
 
-     </Switch> */}
-    
+     </Switch>
+     </div>
 </Router>
   );
   }
