@@ -53,7 +53,7 @@
   width: 100vw;
   height: 10vh;
   position: absolute;
-  z-index: 10;
+  z-index: 10000;
   box-shadow: 0px -8px 40px lightgrey;
   background-color: transparent;
 }

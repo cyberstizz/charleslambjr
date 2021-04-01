@@ -1,4 +1,5 @@
 import './App.css';
+import Navbar from './components/Navbar';
 import About from './components/About';
 import Challenges from './components/Challenges';
 import Journal from './components/Journal';
@@ -13,8 +14,9 @@ const App = () => {
     
      
      <div className="App">
-      <div className="decorativeDiv"></div>
-      <div className="navBar">
+
+       <Navbar />
+      {/* <div className="navBar">
       <div className="logo"></div>
 
     <div className="navOptions">
@@ -28,10 +30,11 @@ const App = () => {
   
     </div>
 
-      </div>
+      </div> */}
 
     
-      
+      <div className="decorativeDiv"></div>
+
     <div className="leftFoldSection">
       <div className="socialMediaButtons">
 
