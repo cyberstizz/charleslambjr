@@ -15,12 +15,10 @@ const App = () => {
     <Router>
      <div className="App">
        <Navbar />
-       {/* <Home /> */}
-
     
       <Switch>
        <Route exact path="/"><Home /></Route>
-       <Route path="/projects"><Projects /></Route>
+       <Route  path="/projects"><Projects /></Route>
        <Route path="/challenges"><Challenges /></Route>
        <Route path="/about"><About /></Route>
        <Route path="/lamb"><Lamb /></Route>

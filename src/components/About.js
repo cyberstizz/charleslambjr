@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const About = () =>{
-return "chickenwings";
+return "about";
 }
 
 export default About;
