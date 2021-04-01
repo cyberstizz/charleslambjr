@@ -1,41 +1,12 @@
-import './App.css';
+import '../App.css';
 import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './components/Home'
-import About from './components/About';
-import Challenges from './components/Challenges';
-import Journal from './components/Journal';
-import Lamb from './components/Lamb';
-import Projects from './components/Projects';
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
-const App = () => {  
 
-  return (
-    <Router>
-    
-     
-     <div className="App">
+const Home = () =>{
+    return (
 
-       <Navbar />
-      {/* <div className="navBar">
-      <div className="logo"></div>
-
-    <div className="navOptions">
-      
-   <div className="home">Home</div>
-   <div className="projects">Projects</div>
-   <div className="challenges">Challenges</div>
-   <div className="about">About</div>
-   <div className="lamb">Lamb</div>
-   <div className="journal">Journal</div>
-  
-    </div>
-
-      </div> */}
-
-    
-      {/* <div className="decorativeDiv"></div>
+        <React.Fragment>
+        <div className="decorativeDiv"></div>
 
     <div className="leftFoldSection">
       <div className="socialMediaButtons">
@@ -78,26 +49,9 @@ const App = () => {
       <div className="skewedBackgroundDecoration"></div>
       <div id="resumeDiv">
      <button id="ResumeCloseButton" onClick={() => document.getElementById("resumeDiv").style.visibility = "hidden"}>close</button>
-      </div> */}
-
-      <Home />
-
       </div>
-      {/* <Switch>
-       <Route exact path="/"><App /></Route>
-       <Route path="/projects"><Projects /></Route>
-       <Route path="/challenges"><Challenges /></Route>
-       <Route path="/about"><About /></Route>
-       <Route path="/lamb"><Lamb /></Route>
-       <Route path="/journal"><Journal /></Route>
+      </React.Fragment>
+    )
+};
 
-     </Switch> */}
-
-
-
-    
-</Router>
-  );
-  }
-
-export default App;
+export default Home;
