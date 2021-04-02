@@ -4,11 +4,12 @@ import './Projects.css'
 
 const Projects = () =>{
 return (
-    <div className="projectsBackground">
+    <React.Fragment>
+    <div className="projectsBackground"></div>
         <div className="projectsTitle">Projects</div>
-        <div className="projectsInfoDiv"></div>
-
-    </div>
+        <div className="projectsInfoDiv">These are a few projects I have done recently</div>
+        <div id="cardsDiv"></div>
+        </React.Fragment>
 )
 }
 
