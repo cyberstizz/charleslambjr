@@ -11,8 +11,18 @@
 .projectsTitle{
     color: rgb(249, 140, 31);
     width: 13vw;
-    font-family: 'Permanent Marker', cursive;    margin-left: 42vw;
+    position: absolute;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 42vw;
     margin-top: 10vh;
     font-size: 40px;
     font-weight: bold;
+}
+
+.projectsInfoDiv{
+    margin-left: 35vw;
+    margin-top: 18vh;
+    width: 40vw;
+    height: 7vh;
+    border: solid orange 2px;
 }

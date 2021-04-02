@@ -6,6 +6,7 @@ const Projects = () =>{
 return (
     <div className="projectsBackground">
         <div className="projectsTitle">Projects</div>
+        <div className="projectsInfoDiv"></div>
 
     </div>
 )
