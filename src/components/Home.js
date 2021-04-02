@@ -33,7 +33,9 @@ const Home = () =>{
           <a  id="highlightedEmail" href="mailto:charles.lamb.dev@gmail.com"> <div className="emailInfo"></div><div className="actualEmail">charles.lamb.dev@gmail.com</div></a>
       </div>
       <div className="buttons">
-     <Link to='/Projects'> <button className="projectButton">Projects</button></Link>
+     <button onClick={ () => {
+     return <Link to='/Projects'></Link>}
+     } className="projectButton">Projects</button>
 
 
       
@@ -50,6 +52,12 @@ const Home = () =>{
       <div className="skewedBackgroundDecoration"></div>
       <div id="resumeDiv">
      <button id="ResumeCloseButton" onClick={() => document.getElementById("resumeDiv").style.visibility = "hidden"}>close</button>
+      {/* {
+
+          window.onclick = (event) =>{
+            event.target.id !== 'resumeDiv' && event.target.className !== 'resumeButton' ? document.getElementById('resumeDiv').style.visibility = "hidden" : document.getElementById("resumeDiv").style.visibility = "visible";
+          }
+      } */}
       </div>
       </React.Fragment>
     )
