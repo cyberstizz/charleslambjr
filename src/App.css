@@ -302,14 +302,15 @@
 }
 
 .buttons{
-  height: 6.5vh;
+  height: 8vh;
   width: 30vw;
   margin-top: 18.2rem;
   margin-left: 10vw;
   position: absolute;
   display: inline-flex;
   flex-direction: row;
-  overflow:visible
+  overflow:visible;
+
 }
 
 .projectButton{
@@ -320,6 +321,7 @@
   width: 120px;
   height: 50px;
   border: solid rgb(0, 26, 77);
+  overflow: visible;
 }
 
 .resumeButton{
