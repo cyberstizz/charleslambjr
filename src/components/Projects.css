@@ -8,8 +8,12 @@
 
 .projectsTitle{
     color: rgb(249, 140, 31);
+    width: 13vw;
+    padding-bottom: 2px;
     font-family: 'Train One', cursive;
-    margin-left: 45vw;
+    margin-left: 42vw;
     margin-top: 15vh;
-
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: rgb(249, 140, 31) solid 2px;
 }
