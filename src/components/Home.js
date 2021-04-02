@@ -33,9 +33,7 @@ const Home = () =>{
           <a  id="highlightedEmail" href="mailto:charles.lamb.dev@gmail.com"> <div className="emailInfo"></div><div className="actualEmail">charles.lamb.dev@gmail.com</div></a>
       </div>
       <div className="buttons">
-     <button onClick={ () => {
-     return <Link to='/Projects'></Link>}
-     } className="projectButton">Projects</button>
+     <Link to="./Projects"><button className="projectButton">Projects</button></Link>
 
 
       
