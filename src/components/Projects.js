@@ -5,6 +5,7 @@ import './Projects.css'
 const Projects = () =>{
 return (
     <div className="projectsBackground">
+        <div className="projectsTitle">Projects</div>
 
     </div>
 )
