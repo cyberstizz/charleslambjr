@@ -36,8 +36,11 @@
 
 #cardsDiv{
     border: solid black 2px;
+    position: absolute;
     height: 70vh;
     width: 80vw;
+    display: inline-flex;
+    flex-direction: row;
 }
 
 #projectsBackground{
