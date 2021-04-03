@@ -28,8 +28,8 @@ return (
         <div className="projectsTitle">Projects</div>
         <div className="projectsInfoDiv">These are a few projects I have completed recently</div>
         <div id="cardsDiv">
-        <Card title={this.state.cardOneTitle} description={this.state.cardOneDescription}/> <Card /> <br/><br/>
-        <Card /> <Card />
+        <Card title={this.state.cardOneTitle} description={this.state.cardOneDescription} /> <Card title={this.state.cardTwoTitle} description={this.state.cardTwoDescription} /> <br/><br/><n/>
+        <Card title={this.state.cardThreeTitle} description={this.state.cardThreeDescription} /> <Card title={this.state.cardFourTitle} description={this.state.cardFourDescription} />
 
         </div>
         </div>

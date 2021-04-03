@@ -36,6 +36,7 @@
 
 #cardsDiv{
     border: solid black 2px;
+    margin-left: 10vw;
     position: absolute;
     height: 70vh;
     width: 80vw;

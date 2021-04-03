@@ -3,7 +3,11 @@ import './Card.css';
 
 
 const Card = (props) => {
-    return 'chickenWings';
+    return (
+        <div id="entireCardBody">
+        <div>{props.title}</div>
+        </div>
+    )
 }
 
 export default Card;
