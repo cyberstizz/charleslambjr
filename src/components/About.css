@@ -1,5 +1,23 @@
 .aboutPage{
     height: 100vh;
     width: 100vw;
-    
+
+}
+
+#aboutPage{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#aboutTopDecoration{
+    background-color: rgb(134, 193, 212);
+    width: 100vw;
+    margin-top: 0;
+    margin-bottom: 10;
+    top: 0;
+    height: 30vh;
+    overflow: visible;
 }
