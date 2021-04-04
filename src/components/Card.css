@@ -1,0 +1,9 @@
+#entireCardBody{
+width: 30vw;
+height: 40vh;
+border: solid 2px black;
+}
+
+#cardTitle{
+    text-align: center;
+}

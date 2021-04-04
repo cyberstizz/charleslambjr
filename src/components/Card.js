@@ -5,7 +5,7 @@ import './Card.css';
 const Card = (props) => {
     return (
         <div id="entireCardBody">
-        <div>{props.title}</div>
+        <div id="cardTitle">{props.title}</div>
         </div>
     )
 }
