@@ -88,10 +88,10 @@
 
 .skillsColumnOne{
     border: solid black 2px;
-    width: 45vw;
+    width: 65vw;
     display: flex;
     flex-wrap: nowrap;
-    height: 15vh;
+    height: 16vh;
     position: absolute;
     z-index: 205;
     top: 2vh;
@@ -100,10 +100,10 @@
 
 .skillsColumnTwo{
     border: solid black 2px;
-    width: 45vw;
+    width: 65vw;
     display: flex;
     flex-wrap: nowrap;
-    height: 15vh;
+    height: 16vh;
     position: absolute;
     z-index: 205;
     top: 20vh;
