@@ -70,9 +70,9 @@
     flex-direction: row;
     border: 2px solid black;
     width: 100vw;
-    height: 30vh;
+    height: 40vh;
     position: absolute;
-    top: 40vh;
+    top: 35vh;
     z-index: 205;
     background-color: rgb(134, 193, 212);
 }
