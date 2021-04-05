@@ -7,7 +7,7 @@ return (
     <div className="aboutPage">
         <div id="aboutTopDecoration"></div>
         <div id='aboutSkewedDov'></div>
-        <div id="aboutHeader"></div>
+        <div id="aboutHeader">About</div>
         <div id="aboutParagraph"></div>
         <div id="skillsSection"></div>
         <div id="aboutFooter"></div>
