@@ -53,11 +53,12 @@
 
 #aboutParagraph{
     width: 100vw;
-    height: 30vh;
+    height: 15vh;
     background-color: white;
     text-align: center;
     color: rgb(249, 140, 31);
     z-index: 205;
+    border-bottom: solid black;
     position: absolute;
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
@@ -71,6 +72,7 @@
     width: 100vw;
     height: 30vh;
     position: absolute;
-    top: 49.9vh;
-
+    top: 40vh;
+    z-index: 205;
+    background-color: rgb(134, 193, 212);
 }
