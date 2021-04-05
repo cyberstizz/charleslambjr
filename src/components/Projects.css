@@ -25,13 +25,14 @@
 }
 
 .projectsInfoDiv{
-    margin-left: 32vw;
+    margin-left: 27vw;
     margin-top: 18vh;
-    width: 40vw;
+    width: 50vw;
     height: 7vh;
     color: black;
     font-family: 'Permanent Marker', cursive;
     font-size: 25px;
+    overflow: visible;
 }
 
 #cardsDiv{
