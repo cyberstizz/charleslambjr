@@ -41,11 +41,11 @@
     border: solid black 2px;
     text-align: center;
     width: 100vw;
-    height: 20vh;
+    height: 10vh;
     z-index: 205;
     color: rgb(134, 193, 212);
     position: absolute;
     font-family: 'Permanent Marker', cursive;
-    font-size: 20px;
+    font-size: 40px;
     text-decoration: underline orange;
 }
