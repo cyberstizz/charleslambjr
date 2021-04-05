@@ -43,8 +43,9 @@
     width: 100vw;
     height: 20vh;
     z-index: 205;
+    color: rgb(134, 193, 212);
     position: absolute;
     font-family: 'Permanent Marker', cursive;
-
-
+    font-size: 20px;
+    text-decoration: underline orange;
 }
