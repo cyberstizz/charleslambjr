@@ -15,7 +15,18 @@ optio, eaque rerum! Provident similique accusantium nemo autem. </div>
         <div id="skillsSection">
         <div id="skillsTitle">Skills =></div>
         <br />
-        <div className="skillsColumnOne"></div>
+        <div className="skillsColumnOne">
+            
+            <div id="htmlIcon"></div>
+            <div id="cssIcon"></div>
+            <div id="javascriptIcon"></div>
+            <div id="reactIcon"></div>
+            <div id="nodeIcon"></div>
+            <div id="expressIcon"></div>
+            <div id="sqliteIcon"></div>
+            <div id="postgresIcon"></div>
+
+        </div>
         <div className="skillsColumnTwo"></div>
 
         </div>

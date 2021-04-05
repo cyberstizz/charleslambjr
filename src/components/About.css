@@ -114,3 +114,75 @@
     left: 33vw;
 
 }
+
+#htmlIcon{
+    background-image: url('../html-5.png');
+    background-position: center;
+    background-size: cover;
+    height: 90px;
+    width: 100px;
+    margin-top: 5px;
+}
+
+#cssIcon{
+    background-image: url('../css.png');
+    background-position: contain;
+    background-size: cover;
+    height: 90px;
+    width: 80px;
+    margin-top: 5px;
+}
+
+#javascriptIcon{
+    background-image: url('../javscript.jpg');
+    background-position: contain;
+    background-size: cover;
+    height: 90px;
+    width: 80px;
+    margin-top: 5px;
+}
+
+#reactIcon{
+    background-image: url('../react.png');
+    background-position: contain;
+    background-size: cover;
+    height: 90px;
+    width: 80px;
+    margin-top: 5px;
+}
+
+#nodeIcon{
+    background-image: url('../node.png');
+    background-position: contain;
+    background-size: cover;
+    height: 90px;
+    width: 80px;
+    margin-top: 5px;
+}
+
+#expressIcon{
+    background-image: url('../express.png');
+    background-position: contain;
+    background-size: cover;
+    height: 90px;
+    width: 80px;
+    margin-top: 5px;
+}
+
+#sqliteIcon{
+    background-image: url('../sqlite.png');
+    background-position: contain;
+    background-size: cover;
+    height: 90px;
+    width: 80px;
+    margin-top: 5px;  
+}
+
+#postgresIcon{
+    background-image: url('../postgres.jpg');
+    background-position: contain;
+    background-size: cover;
+    height: 90px;
+    width: 80px;
+    margin-top: 5px;
+}
