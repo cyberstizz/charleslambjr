@@ -49,3 +49,12 @@
     font-size: 40px;
     text-decoration: underline orange;
 }
+
+#aboutParagraph{
+    width: 100vw;
+    height: 30vh;
+    background-color: green;
+    z-index: 205;
+    position: absolute;
+    top: 22.5vh;
+}
