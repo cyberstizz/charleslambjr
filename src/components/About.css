@@ -33,3 +33,12 @@
     transform: skew(20deg, 10.2deg);
     z-index: 199;
 }
+#aboutHeader{
+    background-color: white;
+    width: 100vw;
+    height: 20vh;
+    z-index: 205;
+    position: absolute;
+
+
+}
