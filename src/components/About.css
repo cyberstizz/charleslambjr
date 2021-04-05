@@ -22,10 +22,12 @@
     overflow: visible;
 }
 #aboutSkewedDov{
-    background-color: green;
+    background-color: white;
     width: 100vw;
-    height: 5vw;
-    margin-top: 0;
+    height: 5.3vw;
+    border: black solid;
+    margin-bottom: 1vh;
     overflow: visible;
     position: absolute;
+    transform: skew(20deg, 10.2deg);
 }
