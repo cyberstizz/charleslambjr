@@ -63,3 +63,14 @@
     font-size: 20px;
     top: 20vh;
 }
+
+#skillsSection{
+    display: inline-flex;
+    flex-direction: row;
+    border: 2px solid black;
+    width: 100vw;
+    height: 30vh;
+    position: absolute;
+    top: 49.9vh;
+
+}
