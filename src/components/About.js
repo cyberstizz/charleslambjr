@@ -14,8 +14,9 @@ numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
 optio, eaque rerum! Provident similique accusantium nemo autem. </div>
         <div id="skillsSection">
         <div id="skillsTitle"></div>
-        <div className="skillsColumn"></div>
-        <div className="skillsColumn"></div>
+        <br />
+        <div className="skillsColumnOne"></div>
+        <div className="skillsColumnTwo"></div>
 
         </div>
         <div id="aboutFooter"></div>
