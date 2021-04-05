@@ -75,3 +75,13 @@
     z-index: 205;
     background-color: rgb(134, 193, 212);
 }
+
+#skillsTitle{
+    border: solid black 2px;
+    width: 30vw;
+    height: 35vh;
+    position: absolute;
+    z-index: 205;
+    top: 2vh;
+    left: 1vw;
+}
