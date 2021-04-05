@@ -12,7 +12,12 @@ return (
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
 optio, eaque rerum! Provident similique accusantium nemo autem. </div>
-        <div id="skillsSection"></div>
+        <div id="skillsSection">
+        <div id="skillsTitle"></div>
+        <div className="skillsColumn"></div>
+        <div className="skillsColumn"></div>
+
+        </div>
         <div id="aboutFooter"></div>
     </div>
 )
