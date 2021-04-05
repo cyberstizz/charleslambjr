@@ -13,7 +13,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
 optio, eaque rerum! Provident similique accusantium nemo autem. </div>
         <div id="skillsSection">
-        <div id="skillsTitle"></div>
+        <div id="skillsTitle">Skills =></div>
         <br />
         <div className="skillsColumnOne"></div>
         <div className="skillsColumnTwo"></div>
