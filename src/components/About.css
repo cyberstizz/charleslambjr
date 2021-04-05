@@ -39,6 +39,7 @@
 #aboutHeader{
     background-color: white;
     border: solid black 2px;
+    top: 10vh;
     text-align: center;
     width: 100vw;
     height: 10vh;
@@ -60,5 +61,5 @@
     position: absolute;
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
-    top: 22.5vh;
+    top: 20vh;
 }
