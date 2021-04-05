@@ -68,7 +68,6 @@
 #skillsSection{
     display: inline-flex;
     flex-direction: row;
-    border: 2px solid black;
     width: 100vw;
     height: 40vh;
     position: absolute;
