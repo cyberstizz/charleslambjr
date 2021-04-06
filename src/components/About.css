@@ -103,7 +103,7 @@
 .skillsColumnTwo{
     width: 65vw;
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
     height: 16vh;
     position: absolute;
     z-index: 205;
@@ -189,4 +189,85 @@
     height: 90px;
     width: 80px;
     margin-top: 5px;
+}
+
+#sassIcon{
+    background-image: url('../sass.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    width: 80px;
+    margin-top: 135px;
+    margin-left: 480px;
+}
+
+#bootstrapIcon{
+    background-image: url('../bootstrap.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    width: 80px;
+    margin-top: 135px;
+}
+
+#jqueryIcon{
+    background-image: url('../jquery.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    width: 80px;
+    margin-top: 135px;
+}
+
+#wordpressIcon{
+    background-image: url('../wordpress.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    width: 80px;
+    margin-top: 135px;
+}
+
+#gitIcon{
+    background-image: url('../git.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    width: 80px;
+    margin-top: 135px;
+}
+
+#reduxIcon{
+    background-image: url('../redux.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    width: 80px;
+    margin-top: 135px;
+}
+
+#typescriptIcon{
+    background-image: url('../typescript.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    width: 80px;
+    margin-top: 135px;
+}
+
+#reactNativeIcon{
+    background-image: url('../reactNative.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    width: 80px;
+    margin-top: 135px;
 }

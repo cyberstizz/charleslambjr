@@ -28,7 +28,14 @@ optio, eaque rerum! Provident similique accusantium nemo autem. </div>
 
         </div>
         <div className="skillsColumnTwo"></div>
-
+            <div id="sassIcon"></div>
+            <div id="bootstrapIcon"></div>
+            <div id="jqueryIcon"></div>
+            <div id="wordpressIcon"></div>
+            <div id="gitIcon"></div>
+            <div id="reduxIcon"></div>
+            <div id="typescriptIcon"></div>
+            <div id="reactNativeIcon"></div>
         </div>
         <div id="aboutFooter"></div>
     </div>
