@@ -109,7 +109,6 @@
     z-index: 205;
     top: 20vh;
     left: 33vw;
-
 }
 
 #htmlIcon{
@@ -197,9 +196,9 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 90px;
-    width: 110px;
+    width: 100px;
     margin-top: 135px;
-    margin-left: 480px;
+    margin-left: 465px;
 }
 
 #bootstrapIcon{
@@ -207,8 +206,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 90px;
-    width: 80px;
+    height: 80px;
+    width: 70px;
     margin-top: 135px;
 }
 
@@ -218,7 +217,7 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 90px;
-    width: 80px;
+    width: 100px;
     margin-top: 135px;
 }
 
@@ -228,7 +227,7 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 90px;
-    width: 80px;
+    width: 90px;
     margin-top: 135px;
 }
 
@@ -238,7 +237,7 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 90px;
-    width: 80px;
+    width: 120px;
     margin-top: 135px;
 }
 
@@ -270,4 +269,14 @@
     height: 90px;
     width: 80px;
     margin-top: 135px;
+}
+
+#aboutFooter{
+    border: solid black 2px;
+    height: 6vh;
+    width: 70vw;
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 2vw;
+    z-index: 205;
 }
