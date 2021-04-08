@@ -178,7 +178,7 @@
     background-position: center;
     height: 90px;
     width: 110px;
-    margin-top: 5px;  
+    margin-top: 1px;  
 }
 
 #postgresIcon{
@@ -192,7 +192,7 @@
 }
 
 #sassIcon{
-    background-image: url('../sass.jpg');
+    background-image: url('../transparentSass.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
