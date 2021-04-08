@@ -197,13 +197,13 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 90px;
-    width: 80px;
+    width: 110px;
     margin-top: 135px;
     margin-left: 480px;
 }
 
 #bootstrapIcon{
-    background-image: url('../bootstrap.png');
+    background-image: url('../bootstraptransparent.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
