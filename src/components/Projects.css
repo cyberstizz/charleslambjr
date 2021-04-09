@@ -37,10 +37,10 @@
 
 #cardsDiv{
     border: solid black 2px;
-    margin-left: 10vw;
+    margin-left: 8vw;
     position: absolute;
     height: 70vh;
-    width: 80vw;
+    width: 87vw;
     display: inline-flex;
     flex-direction: row;
 }
