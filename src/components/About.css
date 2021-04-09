@@ -272,11 +272,43 @@
 }
 
 #aboutFooter{
+    display: flex;
+    flex-direction: row;
     border: solid black 2px;
     height: 25vh;
-    width: 95vw;
+    width: 65vw;
     position: absolute;
-    margin-top: 60vh;
-    margin-left: 2vw;
+    margin-top: 61vh;
+    margin-left: 17vw;
     z-index: 205;
+    background-color: rgb(249, 140, 31);
+}
+
+#footerSlogan{
+    border: solid black 2px;
+    z-index: 205;
+    position: absolute;
+    width: 60vw;
+    height: 10vh;
+    margin-top: 1.5vh;
+    left: 2.5vw;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 45px;
+    background-color: rgb(134, 193, 212);
+}
+
+#footerDescription{
+    z-index: 205;
+    position: absolute;
+    width: 62vw;
+    height: 10vh;
+    margin-top: 12vh;
+    font-size: 30px;
+    overflow: visible;
+    left: 1vw;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
 }

@@ -37,7 +37,13 @@ optio, eaque rerum! Provident similique accusantium nemo autem. </div>
             <div id="typescriptIcon"></div>
             <div id="reactNativeIcon"></div>
         </div>
-        <div id="aboutFooter"></div>
+        <div id="aboutFooter">
+
+            <div id="footerSlogan">Lets talk about joining your team!</div>
+            <div id="footerDescription">My mission is to be a part of a team that is impactful,<br /> and making a difference in the software industry</div>
+            <div id="emailButton"></div>
+
+        </div>
     </div>
 )
 }
