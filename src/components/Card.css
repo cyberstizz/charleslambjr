@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
 #entireCardBody{
 position: relative;
 width: 20vw;
@@ -20,5 +23,8 @@ border: solid 2px black;
     height: 20vh;
     width: 20vw;
     border: solid 2px black;
-
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 28px;
+    font-weight: bolder;
 }
