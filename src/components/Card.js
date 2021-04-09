@@ -4,12 +4,12 @@ import './Card.css';
 
 const Card = (props) => {
     return (
-        <React.Fragment>
+        <div id='wholeCard'>
             <div id='cardTop'></div>
         <div id="entireCardBody">
         <div id="cardTitle">{props.title}</div>
         </div>
-        </React.Fragment>
+        </div>
     )
 };
 

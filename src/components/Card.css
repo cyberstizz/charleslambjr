@@ -1,19 +1,23 @@
 #entireCardBody{
-width: 30vw;
+position: relative;
+width: 20vw;
 height: 40vh;
 border: solid 2px black;
 }
 
 #cardTitle{
     text-align: center;
+    position: relative;
+
 }
 
 #cardTop{
     text-align: center;
+    position: relative;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     height: 20vh;
-    width: 30vw;
+    width: 20vw;
     border: solid 2px black;
 
 }
