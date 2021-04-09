@@ -14,12 +14,12 @@ class Projects extends React.Component{
             cardTwoTopColor: 'rgb(0, 34, 102)',
             cardThreeTitle: 'Quickshow',
             cardThreeTopColor: 'rgb(249, 140, 31)',
-            cardFourTitle: 'random',
-            cardFourTopColor: 'rgb(134, 193, 212)',
+            cardFourTitle: 'Wizard vs Witch',
+            cardFourTopColor: 'rgb(0, 34, 102)',
             cardOneDescription: 'A goal application allowing users to sign up, enter their goals and aspirations and track them daily',
             cardTwoDescription: 'A flashcard application based on the popular scientific study of spaced repetiton',
             cardThreeDescription: 'An application using the shows Api that allows users to find out information about their favorite shows and when they first aired quickly',
-            cardFourDescription: 'random'
+            cardFourDescription: 'Wizard vs Witch'
         }
     }
 
