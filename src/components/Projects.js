@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import './Projects.css';
 import Card from './Card';
+import background from "../squintScreenshot.png";
 
 class Projects extends React.Component{
     constructor(props){
@@ -9,6 +10,7 @@ class Projects extends React.Component{
 
         this.state ={
             cardOneTitle: 'Squint',
+            cardOneBackgroundImage: `url(${background})`,
             cardOneButtonColor: 'rgb(0, 34, 102)',
             cardOneTopColor: 'rgb(249, 140, 31)',
             cardTwoTitle: 'KnowIt',
@@ -36,7 +38,7 @@ return (
         <div className="projectsTitle">Projects</div>
         <div className="projectsInfoDiv">These are a few projects I have completed recently</div>
         <div id="cardsDiv">
-        <Card title={this.state.cardOneTitle} buttonColor={this.state.cardOneButtonColor} backgroundColor={this.state.cardOneTopColor} description={this.state.cardOneDescription} /> <Card title={this.state.cardTwoTitle} buttonColor={this.state.cardTwoButtonColor} description={this.state.cardTwoDescription} backgroundColor={this.state.cardTwoTopColor} /> <br/><br/><n/>
+        <Card title={this.state.cardOneTitle}  backgroundImage={this.state.cardOneBackgroundImage} buttonColor={this.state.cardOneButtonColor} backgroundColor={this.state.cardOneTopColor} description={this.state.cardOneDescription} /> <Card title={this.state.cardTwoTitle} buttonColor={this.state.cardTwoButtonColor} description={this.state.cardTwoDescription} backgroundColor={this.state.cardTwoTopColor} /> <br/><br/><n/>
         <Card title={this.state.cardThreeTitle} buttonColor={this.state.cardThreeButtonColor} description={this.state.cardThreeDescription} backgroundColor={this.state.cardThreeTopColor} /> <Card title={this.state.cardFourTitle} description={this.state.cardFourDescription} buttonColor={this.state.cardFourButtonColor} backgroundColor={this.state.cardFourTopColor} />
 
         </div>
