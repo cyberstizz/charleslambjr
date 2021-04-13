@@ -8,10 +8,7 @@ height: 40vh;
 border: solid 2px black;
 }
 
-#cardTitle{
-    text-align: center;
-    position: relative;
-}
+
 
 #cardTop{
     text-align: center;
@@ -26,4 +23,9 @@ border: solid 2px black;
     font-family: 'Indie Flower', cursive;
     font-size: 28px;
     font-weight: bolder;
+}
+
+#wholeCard{
+    height: 60vh;
+    border: solid 2px solid;
 }

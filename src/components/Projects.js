@@ -58,7 +58,6 @@ return (
 
         </div>
         </div>
-        <div id='infoAboutProjectsSection'></div>
         </React.Fragment>
 )
 }
