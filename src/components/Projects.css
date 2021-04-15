@@ -36,10 +36,10 @@
 }
 
 #cardsDiv{
-    margin-left: 2vw;
+    margin-left: .2vw;
     position: absolute;
-    height: 72vh;
-    width: 87vw;
+    height: 85vh;
+    width: 99vw;
     display: inline-flex;
     flex-direction: row;
 }
