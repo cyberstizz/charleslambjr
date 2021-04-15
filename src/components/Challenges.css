@@ -15,3 +15,12 @@
     z-index: 19;
     opacity: 80%;
 }
+
+#title{
+    z-index: 22;
+    text-align: center;
+    margin-top: 0;
+    height: 4vh;
+    width: 10vw;
+    border: solid orange 2px;
+}
