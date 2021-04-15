@@ -5,7 +5,7 @@ import './Challenges.css';
 const Challenges = () =>{
 return (
     <React.Fragment>
-                 <div id="title">My toughest Challenges</div>
+                 <div id="title">My Toughest Challenges</div>
                  <div id="titleDescription">One thing I really love is pushing myself to learn and grow!
 During my experience learning as a developer i have had many ups and downs which have taught me two important things:
 

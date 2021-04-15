@@ -24,7 +24,7 @@
 #title{
     z-index: 22;
     text-align: center;
-    height: 8vh;
+    height: 7.1vh;
     width: 35vw;
     position: absolute;
     margin-left: 36vw;
@@ -32,16 +32,19 @@
     margin-top: 8vw;
     font-family: 'Zen Dots', cursive;
     font-size: 30px;
+    border-bottom: white 2px solid;
 }
 
 #titleDescription{
     z-index: 22;
     text-align: center;
     height: 50vh;
-    width: 35vw;
+    width: 37vw;
     position: absolute;
-    margin-left: 36vw;
+    margin-left: 35vw;
+    font-size: 22px;
     color: white;
+    font-weight: bolder;
     margin-top: 12vw;
-    border: solid orange 2px;
+    font-family: 'Karantina', cursive;
 }
