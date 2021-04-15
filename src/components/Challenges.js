@@ -6,6 +6,7 @@ const Challenges = () =>{
 return (
     <React.Fragment>
                  <div id="title">My toughest Challenges</div>
+                 <div id="titleDescription"></div>
 
     <div id="fullPagePic">
         <div id="blueOverlay"></div>

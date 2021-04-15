@@ -31,3 +31,15 @@
     font-family: 'Zen Dots', cursive;
     font-size: 30px;
 }
+
+#titleDescription{
+    z-index: 22;
+    text-align: center;
+    height: 40vh;
+    width: 35vw;
+    position: absolute;
+    margin-left: 36vw;
+    color: white;
+    margin-top: 12vw;
+    border: solid orange 2px;
+}
