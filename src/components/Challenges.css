@@ -19,8 +19,10 @@
 #title{
     z-index: 22;
     text-align: center;
-    margin-top: 0;
-    height: 4vh;
-    width: 10vw;
-    border: solid orange 2px;
+    height: 8vh;
+    width: 30vw;
+    position: absolute;
+    margin-left: 40vw;
+    color: rgb(249, 140, 31);
+    margin-top: 8vw;
 }
