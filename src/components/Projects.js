@@ -14,10 +14,10 @@ class Projects extends React.Component{
         const secondLink = 'https://wizardvswitch.netlify.app';
         const thirdLink = 'https://quickshow.netlify.app';
         const fourthLink = 'https://wizardvswitch.netlify.app';
-        firstGihubLink = '';
-        firstGihubLink = '';
-        firstGihubLink = '';
-        firstGihubLink = '';
+        firstGihubLink = 'https://github.com/cyberstizz/Squint';
+        firstGihubLink = 'https://github.com/cyberstizz/KnowIt';
+        firstGihubLink = 'https://github.com/cyberstizz/Show-Api';
+        firstGihubLink = 'https://github.com/cyberstizz/theGame';
 
         this.state ={
             cardOneTitle: 'Squint',
