@@ -28,3 +28,8 @@ border: solid 2px black;
 #wholeCard{
     height: 75vh;
 }
+
+#cardFooter{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+}
