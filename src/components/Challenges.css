@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+
 #fullPagePic{
     background-image: url('../weightliftingPic\ \(1\).jpg');
     background-position: center;
@@ -20,9 +23,11 @@
     z-index: 22;
     text-align: center;
     height: 8vh;
-    width: 30vw;
+    width: 35vw;
     position: absolute;
-    margin-left: 40vw;
+    margin-left: 36vw;
     color: rgb(249, 140, 31);
     margin-top: 8vw;
+    font-family: 'Zen Dots', cursive;
+    font-size: 30px;
 }
