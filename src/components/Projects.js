@@ -10,11 +10,14 @@ import wizardVsWitchBackground from "../WizardvsWitchScreenshot.png";
 class Projects extends React.Component{
     constructor(props){
         super(props);
-        const firstLink = 'https://squint.netlify.app';
-            
+        const firstLink = 'https://squint.netlify.app';    
         const secondLink = 'https://wizardvswitch.netlify.app';
         const thirdLink = 'https://quickshow.netlify.app';
         const fourthLink = 'https://wizardvswitch.netlify.app';
+        firstGihubLink = '';
+        firstGihubLink = '';
+        firstGihubLink = '';
+        firstGihubLink = '';
 
         this.state ={
             cardOneTitle: 'Squint',
@@ -22,21 +25,25 @@ class Projects extends React.Component{
             cardOneButtonColor: 'rgb(0, 34, 102)',
             cardOneTopColor: 'rgb(249, 140, 31)',
             cardOneLink: firstLink,
+            cardOneGithub: ``,
             cardTwoTitle: 'KnowIt',
             cardTwoBackgroundImage: `url(${quickShowBackground})`,
             cardTwoButtonColor: 'rgb(249, 140, 31)',
             cardTwoTopColor: 'rgb(0, 34, 102)',
             cardTwoLink: secondLink,
+            cardTwoGithub: `url()`,
             cardThreeTitle: 'Quickshow',
             cardThreeBackgroundImage: `url(${wizardVsWitchBackground})`,
             cardThreeButtonColor: 'rgb(0, 34, 102)',
             cardThreeTopColor: 'rgb(249, 140, 31)',
             cardThreeLink: thirdLink,
+            cardThreeGithub: `url()`,
             cardFourTitle: 'Wizard vs Witch',
             cardFourBackgroundImage: `url(${knowitBackground})`,
             cardFourButtonColor: 'rgb(249, 140, 31)',
             cardFourTopColor: 'rgb(0, 34, 102)',
             cardFourLink: fourthLink,
+            cardFourGithub: `url()`,
             cardOneDescription: 'A goal application allowing users to sign up, enter their goals and aspirations and track them daily',
             cardTwoDescription: 'A flashcard application based on the popular scientific study of spaced repetiton',
             cardThreeDescription: 'An application using the shows Api that allows users to find out information about their favorite shows and when they first aired quickly',
@@ -53,8 +60,8 @@ return (
         <div className="projectsTitle">Projects</div>
         <div className="projectsInfoDiv">These are a few projects I have completed recently</div>
         <div id="cardsDiv">
-        <Card title={this.state.cardOneTitle}  link={this.state.cardOneLink} backgroundImage={this.state.cardOneBackgroundImage} buttonColor={this.state.cardOneButtonColor} backgroundColor={this.state.cardOneTopColor} description={this.state.cardOneDescription} /> <Card title={this.state.cardTwoTitle} link={this.state.cardTwoLink} buttonColor={this.state.cardTwoButtonColor} backgroundImage={this.state.cardFourBackgroundImage} description={this.state.cardTwoDescription} backgroundColor={this.state.cardTwoTopColor} /> <br/><br/><n/>
-        <Card title={this.state.cardThreeTitle} link={this.state.cardThreeLink} backgroundImage={this.state.cardTwoBackgroundImage} buttonColor={this.state.cardThreeButtonColor} description={this.state.cardThreeDescription} backgroundColor={this.state.cardThreeTopColor} /> <Card title={this.state.cardFourTitle} link={this.state.cardFourLink} description={this.state.cardFourDescription} backgroundImage={this.state.cardThreeBackgroundImage} buttonColor={this.state.cardFourButtonColor} backgroundColor={this.state.cardFourTopColor} />
+        <Card title={this.state.cardOneTitle}  github={} link={this.state.cardOneLink} backgroundImage={this.state.cardOneBackgroundImage} buttonColor={this.state.cardOneButtonColor} backgroundColor={this.state.cardOneTopColor} description={this.state.cardOneDescription} /> <Card title={this.state.cardTwoTitle} link={this.state.cardTwoLink} github={} buttonColor={this.state.cardTwoButtonColor} backgroundImage={this.state.cardFourBackgroundImage} description={this.state.cardTwoDescription} backgroundColor={this.state.cardTwoTopColor} /> <br/><br/><n/>
+        <Card title={this.state.cardThreeTitle} github={} link={this.state.cardThreeLink} backgroundImage={this.state.cardTwoBackgroundImage} buttonColor={this.state.cardThreeButtonColor} description={this.state.cardThreeDescription} backgroundColor={this.state.cardThreeTopColor} /> <Card title={this.state.cardFourTitle} link={this.state.cardFourLink} github={} description={this.state.cardFourDescription} backgroundImage={this.state.cardThreeBackgroundImage} buttonColor={this.state.cardFourButtonColor} backgroundColor={this.state.cardFourTopColor} />
 
         </div>
         </div>
