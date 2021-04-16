@@ -29,7 +29,7 @@
     position: absolute;
     margin-left: 36vw;
     color: rgb(249, 140, 31);
-    margin-top: 8vw;
+    margin-top: 5vw;
     font-family: 'Zen Dots', cursive;
     font-size: 30px;
     border-bottom: white 2px solid;
@@ -45,7 +45,7 @@
     font-size: 23px;
     color: white;
     font-weight: bolder;
-    margin-top: 12vw;
+    margin-top: 9vw;
     font-family: 'Karantina', cursive;
 }
 
@@ -56,6 +56,6 @@
     position: absolute;
     margin-left: 6vw;
     color: rgb(249, 140, 31);
-    margin-top: 35.5vw;
+    margin-top: 33.5vw;
     border: white 2px solid;
 }
