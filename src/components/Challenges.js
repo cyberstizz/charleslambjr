@@ -17,6 +17,7 @@ Because they taught me either programming patterns I did not know or triggered p
 Oh and in case you're wondering... yes that is me in the background overcoming one of my toughest physical challenges
 
 </div>
+<div id='challengesFooter'></div>
 
     <div id="fullPagePic">
         <div id="blueOverlay"></div>

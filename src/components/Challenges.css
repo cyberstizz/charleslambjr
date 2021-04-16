@@ -38,13 +38,24 @@
 #titleDescription{
     z-index: 22;
     text-align: center;
-    height: 50vh;
+    height: 51vh;
     width: 37vw;
     position: absolute;
     margin-left: 35vw;
-    font-size: 22px;
+    font-size: 23px;
     color: white;
     font-weight: bolder;
     margin-top: 12vw;
     font-family: 'Karantina', cursive;
+}
+
+#challengesFooter{
+    z-index: 22;
+    height: 18vh;
+    width: 90vw;
+    position: absolute;
+    margin-left: 6vw;
+    color: rgb(249, 140, 31);
+    margin-top: 35.5vw;
+    border: white 2px solid;
 }
