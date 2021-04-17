@@ -20,11 +20,11 @@ Oh and in case you're wondering... yes that is me in the background overcoming o
 <div id='challengesFooter'>
 
     <div id='challengesIcons'>
-    <div id='challengeIcon'></div>
-    <div id='challengeIcon'></div>
-    <div id='challengeIcon'></div>
-    <div id='challengeIcon'></div>
-    <div id='challengeIcon'></div>
+    <div className='challengeIcon'></div>
+    <div className='challengeIcon'></div>
+    <div className='challengeIcon'></div>
+    <div className='challengeIcon'></div>
+    <div className='challengeIcon'></div>
 
 
     </div>
