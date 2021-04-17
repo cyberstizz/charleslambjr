@@ -38,7 +38,7 @@
 #titleDescription{
     z-index: 22;
     text-align: center;
-    height: 51vh;
+    height: 51.5vh;
     width: 37vw;
     position: absolute;
     margin-left: 35vw;
@@ -59,10 +59,6 @@
     margin-left: 6vw;
     color: rgb(249, 140, 31);
     margin-top: 33.5vw;
-    border: white 2px solid;
-}
-
-#challengesButtons{
 }
 
 #challengesIcons{
@@ -86,11 +82,16 @@ background-color: rgb(249, 140, 31);
 #challengesNames{
     display: flex;
     flex-direction: row;
+    width: 80vw;
+    margin-left: 5vw;
 }
 
 .challengeName{
-    height: 2vh;
-    width: 4vw;
-    border: solid white 2px;
-    margin-left: 5px;
+    height: 6vh;
+    width: 9vw;
+    margin-top: 1vh;
+    color: white;
+    margin-right: 2vw;
+    font-family: 'Zen Dots', cursive;
+
 }

@@ -29,17 +29,19 @@ Oh and in case you're wondering... yes that is me in the background overcoming o
 
     </div>
     <div id='challengesNames'>
-    <div className='challengeName'></div>
-    <div className='challengeName'></div>
-    <div className='challengeName'></div>
-    <div className='challengeName'></div>
-    <div className='challengeName'></div>
+    <div className='challengeName' onClick={() => {
+        const description = document.getElementById('titleDescription');
+
+        description.style.backgroundColor != 'white' ? description.style.backgroundColor = 'white' : description.style.backgroundColor = '';
+
+    }}>Array Builder</div>
+    <div className='challengeName'>Prioritize</div>
+    <div className='challengeName'>Intersection</div>
+    <div className='challengeName'>Find The Outlier</div>
+    <div className='challengeName'>Hard Problem</div>
     </div>
 
-    <div id='challengesButtons'>
-
-
-    </div>
+    
 
 </div>
 
