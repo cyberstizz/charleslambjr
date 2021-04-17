@@ -51,11 +51,31 @@
 
 #challengesFooter{
     z-index: 22;
-    height: 18vh;
+    height: 20vh;
     width: 90vw;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     margin-left: 6vw;
     color: rgb(249, 140, 31);
     margin-top: 33.5vw;
     border: white 2px solid;
+}
+
+#challengesButtons{
+}
+
+#challengesIcons{
+z-index: 22;
+height: 7vh;
+display: inline-flex;
+flex-direction: row;
+width: 80vw;
+color: rgb(249, 140, 31);
+margin-top: 2vh;
+border: black 2px solid;
+}
+
+.challengeIcon{
+
 }

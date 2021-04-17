@@ -19,9 +19,21 @@ Oh and in case you're wondering... yes that is me in the background overcoming o
 </div>
 <div id='challengesFooter'>
 
-    <div id='challengesIcons'></div>
+    <div id='challengesIcons'>
+    <div id='challengeIcon'></div>
+    <div id='challengeIcon'></div>
+    <div id='challengeIcon'></div>
+    <div id='challengeIcon'></div>
+    <div id='challengeIcon'></div>
+
+
+    </div>
     <div id='challengesNames'></div>
-    <div id='challengesButtons'></div>
+
+    <div id='challengesButtons'>
+
+
+    </div>
 
 </div>
 
