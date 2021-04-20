@@ -1,11 +1,49 @@
 import React from 'react';
 import './Challenges.css';
+import arrayBuilder from '../arrayBuilder.png';
 
+const descriptionDefault = {
+    zIndex: '22',
+    textAlign: 'center',
+    height: '51.5vh',
+    width: '37vw',
+    position: 'absolute',
+    backgroundImage: '',
+    marginLeft: '35vw',
+    fontSize: '23px',
+    color: 'white',
+    fontWeight: 'bolder',
+    marginTop: '9vw',
+    fontFamily: 'Karantina, cursive'
+};
 
-const Challenges = () =>{
+const descriptionClicked = {
+zIndex: '22',
+textAlign: 'center',
+height: '51.5vh',
+width: '37vw',
+position: 'absolute',
+marginLeft: '35vw',
+fontSize: '23px',
+color: 'white',
+fontWeight: 'bolder',
+marginTop: '9vw',
+fontFamily: 'Karantina, cursive',
+backgroundImage: `url(${arrayBuilder})`,
+innerHTML: ''
+};
+
+const clickIt = () =>{
+    let description = document.getElementById('titleDescription');
+    description.style ={descriptionClicked}
+}
+
+const Challenges = () =>{  
+    
 return (
     <React.Fragment>
                  <div id="title">My Toughest Challenges</div>
+                 <div id="arrayBuilder"></div>
                  <div id="titleDescription">One thing I really love is pushing myself to learn and grow!
 During my experience learning as a developer i have had many ups and downs which have taught me two important things:
 
@@ -20,7 +58,10 @@ Oh and in case you're wondering... yes that is me in the background overcoming o
 <div id='challengesFooter'>
 
     <div id='challengesIcons'>
-    <div className='challengeIcon'></div>
+    <div className='challengeIcon' onClick={() => {
+        let description = document.getElementById('arrayBuilder');
+        description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
+    }}></div>
     <div className='challengeIcon'></div>
     <div className='challengeIcon'></div>
     <div className='challengeIcon'></div>
@@ -31,9 +72,7 @@ Oh and in case you're wondering... yes that is me in the background overcoming o
     <div id='challengesNames'>
     <div className='challengeName' onClick={() => {
         const description = document.getElementById('titleDescription');
-
         description.style.backgroundColor != 'white' ? description.style.backgroundColor = 'white' : description.style.backgroundColor = '';
-
     }}>Array Builder</div>
     <div className='challengeName'>Prioritize</div>
     <div className='challengeName'>Intersection</div>
