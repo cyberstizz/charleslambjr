@@ -1,12 +1,5 @@
 import '../App.css';
-import App from '../App';
 import React from 'react';
-import Home from './Home';
-import About from './About';
-import Challenges from './Challenges';
-import Journal from './Journal';
-import Lamb from './Lamb';
-import Projects from './Projects';
 import { Link } from "react-router-dom"
 
 const Navbar = () =>{

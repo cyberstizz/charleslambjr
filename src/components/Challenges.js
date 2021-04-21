@@ -1,6 +1,5 @@
 import React from 'react';
 import './Challenges.css';
-import arrayBuilder from '../arrayBuilder.png';
 
 
 const Challenges = () =>{  
@@ -37,7 +36,7 @@ Oh and in case you're wondering... yes that is me in the background overcoming o
     <div id='challengesNames'>
     <div className='challengeName' onClick={() => {
         const description = document.getElementById('titleDescription');
-        description.style.backgroundColor != 'white' ? description.style.backgroundColor = 'white' : description.style.backgroundColor = '';
+        description.style.backgroundColor !== 'white' ? description.style.backgroundColor = 'white' : description.style.backgroundColor = '';
     }}>Array Builder</div>
     <div className='challengeName'>Prioritize</div>
     <div className='challengeName'>Intersection</div>
