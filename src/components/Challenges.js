@@ -3,14 +3,6 @@ import './Challenges.css';
 import arrayBuilder from '../arrayBuilder.png';
 
 
-
-
-
-const clickIt = () =>{
-    let description = document.getElementById('titleDescription');
-    description.style ={descriptionClicked}
-}
-
 const Challenges = () =>{  
     
 return (
