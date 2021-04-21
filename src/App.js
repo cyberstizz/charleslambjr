@@ -7,7 +7,7 @@ import Challenges from './components/Challenges';
 import Journal from './components/Journal';
 import Lamb from './components/Lamb';
 import Projects from './components/Projects';
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const App = () => {  
 

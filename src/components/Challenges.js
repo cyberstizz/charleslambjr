@@ -2,36 +2,9 @@ import React from 'react';
 import './Challenges.css';
 import arrayBuilder from '../arrayBuilder.png';
 
-const descriptionDefault = {
-    zIndex: '22',
-    textAlign: 'center',
-    height: '51.5vh',
-    width: '37vw',
-    position: 'absolute',
-    backgroundImage: '',
-    marginLeft: '35vw',
-    fontSize: '23px',
-    color: 'white',
-    fontWeight: 'bolder',
-    marginTop: '9vw',
-    fontFamily: 'Karantina, cursive'
-};
 
-const descriptionClicked = {
-zIndex: '22',
-textAlign: 'center',
-height: '51.5vh',
-width: '37vw',
-position: 'absolute',
-marginLeft: '35vw',
-fontSize: '23px',
-color: 'white',
-fontWeight: 'bolder',
-marginTop: '9vw',
-fontFamily: 'Karantina, cursive',
-backgroundImage: `url(${arrayBuilder})`,
-innerHTML: ''
-};
+
+
 
 const clickIt = () =>{
     let description = document.getElementById('titleDescription');
