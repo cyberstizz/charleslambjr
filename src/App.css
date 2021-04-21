@@ -359,6 +359,7 @@
   z-index: 10;
   position: absolute;
   transform: skew(25deg, 10deg);
+  overflow: scroll;
 }
 
 
@@ -442,13 +443,13 @@ overflow: hidden;
 #resumeDiv{
   visibility: hidden;
   position: absolute;
-  background-image: url("./0001.jpg");
-  background-position: contain;
+  background-image: url("./BestCharlesLambResume.png");
+  background-position: cover;
   background-size: 100%;
   background-repeat: no-repeat;
   z-index: 10001;
   height: 90vh;
-  width: 45vw;
+  width: 35vw;
   border: solid rgb(249, 140, 31) 4px;
   top: .2vh;
   bottom: 10px;
