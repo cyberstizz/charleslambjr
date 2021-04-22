@@ -49,9 +49,6 @@ Oh and in case you're wondering... yes that is me in the background overcoming o
 </div>
 <div id="blueOverlay"></div>
     </div>
-
-
-
 )
 }
 
