@@ -2,10 +2,9 @@ import React from 'react';
 import './Challenges.css';
 
 
-const Challenges = () =>{  
-    
+const Challenges = () =>{      
 return (
-        <div id="fullPagePic">
+    <React.Fragment>
                  <div id="title">My Toughest Challenges</div>
                  <div id="arrayBuilder"></div>
                  <div id="titleDescription">One thing I really love is pushing myself to learn and grow!
@@ -47,8 +46,13 @@ Oh and in case you're wondering... yes that is me in the background overcoming o
     
 
 </div>
+<div id="fullPagePic">
 <div id="blueOverlay"></div>
-    </div>
+
+          </div>
+<div id="blueOverlay"></div>
+         
+         </React.Fragment>
 )
 }
 
