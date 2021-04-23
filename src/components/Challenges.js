@@ -4,7 +4,6 @@ import './Challenges.css';
 
 const Challenges = () =>{      
 return (
-    <React.Fragment>
         <div id="fullPagePic">
 
                  <div id="title">My Toughest Challenges</div>
@@ -51,7 +50,6 @@ Oh and in case you're wondering... yes that is me in the background overcoming o
 <div id="blueOverlay"></div>
 
           </div>         
-         </React.Fragment>
 )
 }
 
