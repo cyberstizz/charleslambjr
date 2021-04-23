@@ -5,6 +5,8 @@ import './Challenges.css';
 const Challenges = () =>{      
 return (
     <React.Fragment>
+        <div id="fullPagePic">
+
                  <div id="title">My Toughest Challenges</div>
                  <div id="arrayBuilder"></div>
                  <div id="titleDescription">One thing I really love is pushing myself to learn and grow!
@@ -46,12 +48,9 @@ Oh and in case you're wondering... yes that is me in the background overcoming o
     
 
 </div>
-<div id="fullPagePic">
 <div id="blueOverlay"></div>
 
-          </div>
-<div id="blueOverlay"></div>
-         
+          </div>         
          </React.Fragment>
 )
 }
