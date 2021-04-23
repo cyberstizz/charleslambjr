@@ -1,0 +1,15 @@
+
+#entireJournalPage{
+    background-image: url('../meAndNick.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.entryDiv{
+    margin-top: 11vh;
+    height: 33vh;
+    width: 75vw;
+    background-color: gold;
+    color: green;
+}
