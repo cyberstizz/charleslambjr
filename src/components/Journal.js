@@ -6,9 +6,19 @@ const Journal = (props) =>{
 
 const JournalEntry = (props) =>{
 
+
+
 const today = new Date();
+
+let hours = today.getHours();
+if (hours > 12) {
+    hours -= 12;
+} else if (hours === 0) {
+   hours = 12;
+};
+
 const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+const time = hours + ":" + today.getMinutes() + ":" + today.getSeconds();
 const dateTime = date+' '+time;
        return(
               <div className='entryDiv'>
