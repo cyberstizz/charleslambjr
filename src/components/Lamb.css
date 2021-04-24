@@ -16,6 +16,13 @@
     height: 100vh;
 }
 
+#topSkewedDiv{
+    height: 20vh;
+    width: 30vw;
+    background-color: white;
+    
+}
+
 #rightPicSide{
     display:inline-flex;
     background-image: url('../lambPic.jpeg');
