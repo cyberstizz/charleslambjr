@@ -17,15 +17,16 @@
 }
 
 #topSkewedDiv{
-    height: 20vh;
+    height: 27vh;
     width: 30vw;
     background-color: white;
-    
+    transform: skew(66deg, 4deg);
+    margin-bottom: 20px;
 }
 
 #rightPicSide{
     display:inline-flex;
-    background-image: url('../lambPic.jpeg');
+    background-image: url('../Mount-Everest.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 50vw;
