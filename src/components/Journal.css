@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;700&family=Zen+Dots&display=swap');
+
 
 #entireJournalPage{
     background-image: url('../meAndNick.jpg');
@@ -13,4 +17,8 @@
     background-color: rgb(0, 34, 102);
     color: green;
     text-align: center;
+    font-family: 'Karantina', cursive;
+    font-size: 35px;
+    color: orange;
+    letter-spacing: .2rem;
 }
