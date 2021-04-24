@@ -2,11 +2,6 @@ import React from 'react';
 import './Journal.css';
 
 
-const Journal = (props) =>{
-
-const JournalEntry = (props) =>{
-
-
 
 const today = new Date();
 
@@ -51,10 +46,15 @@ if (hours > 12) {
 
 };
 const dateTime = date+' '+time;
+
+const Journal = () =>{
+
+const JournalEntry = (props) =>{
+
        return(
               <div className='entryDiv'>
                      {props.entry}<br />
-              <div>posted on {dateTime}</div>
+              <div>posted on {props.dateTime}</div>
               </div>
 
        )
@@ -64,7 +64,8 @@ return(
        <div id='entireJournalPage'>
 
 
-<JournalEntry entry={'waterfountan'} />
+<JournalEntry dateTime={'April-23-2021 9:45pm'} entry={'What a day! spent the majority of the day practicing the pern stack and good ol typing. tomorrows forecast, more work'} />
+<JournalEntry dateTime={dateTime} entry={'this is a test entry'} />
 
 </div>
 
