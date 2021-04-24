@@ -10,12 +10,6 @@ const JournalEntry = (props) =>{
 
 const today = new Date();
 
-let hours = today.getHours();
-if (hours > 12) {
-    hours -= 12;
-} else if (hours === 0) {
-   hours = 12;
-};
 
 let month= today.getMonth()+1;
 
@@ -45,8 +39,17 @@ if(month === 1){
        month = 'December';
 }
 
-const date = today.getFullYear()+'-'+month+'-'+today.getDate();
-const time = hours + ":" + today.getMinutes() + ":" + today.getSeconds();
+const date = month+'-'+today.getDate()+'-'+today.getFullYear();
+let time;
+let hours = today.getHours();
+if (hours > 12) {
+    hours -= 12;
+    time = hours + ":" + today.getMinutes() + 'pm';
+} else if (hours === 0) {
+   hours = 12 ;
+   time = hours + ":" + today.getMinutes();
+
+};
 const dateTime = date+' '+time;
        return(
               <div className='entryDiv'>
@@ -61,7 +64,7 @@ return(
        <div id='entireJournalPage'>
 
 
-<JournalEntry entry={'waterfountan'} postTime={'april 22nd'} />
+<JournalEntry entry={'waterfountan'} />
 
 </div>
 
