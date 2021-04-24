@@ -19,6 +19,8 @@
 #rightPicSide{
     display:inline-flex;
     background-image: url('../lambPic.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 50vw;
     height: 100vh;
 }
