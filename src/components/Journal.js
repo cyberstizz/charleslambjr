@@ -53,8 +53,8 @@ const JournalEntry = (props) =>{
 
        return(
               <div className='entryDiv'>
-                     {props.entry}<br />
-              <div>posted on {props.dateTime}</div>
+                <div id='actualEntry'>{props.entry}</div>                   
+                <div id='datediv'>posted on {props.dateTime}</div>
               </div>
 
        )
