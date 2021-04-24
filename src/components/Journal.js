@@ -53,7 +53,7 @@ const JournalEntry = (props) =>{
 
        return(
               <div className='entryDiv'>
-                <div id='actualEntry'>{props.entry}</div>                   
+                <div id='actualEntry'>{props.entry}</div>                  
                 <div id='datediv'>posted on {props.dateTime}</div>
               </div>
 
@@ -66,6 +66,8 @@ return(
 
 <JournalEntry dateTime={'April-23-2021 9:45pm'} entry={'What a day! spent the majority of the day practicing the pern stack and good ol typing. tomorrows forecast, more work'} />
 <JournalEntry dateTime={dateTime} entry={'this is a test entry'} />
+<JournalEntry dateTime={dateTime} entry={'another test'} />
+
 
 </div>
 

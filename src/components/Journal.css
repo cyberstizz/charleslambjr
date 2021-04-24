@@ -7,7 +7,7 @@
     background-image: url('../meAndNick.jpg');
     background-position: center;
     background-size: cover;
-    height: 100%;
+    
 }
 
 .entryDiv{
@@ -27,7 +27,7 @@
 }
 
 #actualEntry{
-    background-color: rgb(0, 34, 102);
+    background-color: rgb(47, 73, 124);
 }
 
 #datediv{
