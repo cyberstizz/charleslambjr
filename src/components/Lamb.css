@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;700&family=Zen+Dots&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 #fullLambPage{
     display: flex;
     flex-direction: row;
@@ -12,15 +14,22 @@
 #leftOrangeSide{
     display:inline-flex;
     background-color: rgb(249, 140, 31);
-    width: 50vw;
+    width: 54.4vw;
     height: 100vh;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+#lambDescription{
+    
 }
 
 #topSkewedDiv{
-    height: 27vh;
-    width: 30vw;
-    background-color: white;
-    transform: skew(66deg, 4deg);
+    height: 9.5vh;
+    width: 22vw;
+    margin-left: 9.5vw;
+    background-color: #062f55;
+    transform: skew(66deg, 4deg) rotate(20deg, 40deg);
     margin-bottom: 20px;
 }
 
