@@ -10,5 +10,8 @@
 }
 
 #leftOrangeSide{
-
+    display:inline-flex;
+    color: rgb(249, 140, 31);
+    width: 50vw;
+    height: 100vh;
 }
