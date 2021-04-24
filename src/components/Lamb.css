@@ -11,7 +11,14 @@
 
 #leftOrangeSide{
     display:inline-flex;
-    color: rgb(249, 140, 31);
+    background-color: rgb(249, 140, 31);
+    width: 50vw;
+    height: 100vh;
+}
+
+#rightPicSide{
+    display:inline-flex;
+    background-image: url('../lambPic.jpeg');
     width: 50vw;
     height: 100vh;
 }
