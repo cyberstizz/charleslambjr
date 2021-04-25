@@ -20,7 +20,7 @@
     text-align: center;
 }
 
-#lambDescription{
+#lambDescriptionTitle{
     position: absolute;
     margin-top: 12vh;
     margin-left: 14vw;
@@ -29,6 +29,18 @@
     text-align: center;
     border-bottom: white 1px solid;
     border-bottom-width: .2vw;
+}
+
+#lambDesctiption{
+    position: absolute;
+    text-align: center;
+    height: 60vh;
+    width: 40vw;
+    margin-top: 22vh;
+    margin-left: 2vw;
+    font-size: 28px;
+    color: #062f55;
+    text-align: center;
 }
 
 #topSkewedDiv{
