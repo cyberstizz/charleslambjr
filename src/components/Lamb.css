@@ -21,7 +21,11 @@
 }
 
 #lambDescription{
-    
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 4vw;
+    font-size: 35px;
+    text-align: center;
 }
 
 #topSkewedDiv{

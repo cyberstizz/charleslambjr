@@ -7,7 +7,7 @@ return (
 
         <div id='leftOrangeSide'>
             <div id='topSkewedDiv'></div>
-        <div>this is a test to see if everything is working as planned</div>
+        <div id='lambDescription'>What is Lamb?</div>
 
         </div>
 
