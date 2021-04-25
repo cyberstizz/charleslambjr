@@ -18,7 +18,7 @@
     height: 100vh;
     width: 100vw;  
     z-index: 23;
-    opacity: 80%;
+    /* opacity: 80%; */
 }
 
 #title{
