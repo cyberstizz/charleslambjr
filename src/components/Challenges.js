@@ -2,9 +2,21 @@ import React from 'react';
 import './Challenges.css';
 
 
+const arrayBuilderPopup = 'Write a function arrayBuilder that takes in a count object and returns an array filled with the appropriate numbers of elements. The order of the elements in the array does not matter, but repeated elements should be grouped.';
+
+const PrioritizePopup = 'Create a function prioritize that accepts an array and a callback. The callback will return either true or false. prioritize will iterate through the array and perform the callback on each element, and return a new array, where all the elements that yielded a return value of true come first in the array, and the rest of the elements come second.';
+
+const intersectionPopup = 'Construct a function intersection that compares input arrays and returns a new array with elements found in all of the inputs. ';
+
+const findTheOutlierPopup = '';
+
+const hardProblemPopup = '';
+
+
 const Challenges = () =>{      
 return (
-        <div id="fullPagePic">
+
+    <React.Fragment>
 
                  <div id="title">My Toughest Challenges</div>
                  <div id="arrayBuilder"></div>
@@ -47,9 +59,15 @@ Oh and in case you're wondering... yes that is me in the background overcoming o
     
 
 </div>
+
+
 <div id="blueOverlay"></div>
 
-          </div>         
+<div id="fullPagePic">
+</div>
+  
+
+          </React.Fragment>      
 )
 }
 

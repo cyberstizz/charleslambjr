@@ -9,6 +9,7 @@
     background-size: 100%;
     height: 100vh;
     width: 100vw;
+    display: transparent;
    /* opacity: 97%;*/
     z-index: 24;
 }
