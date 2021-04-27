@@ -41,6 +41,17 @@ return (
 
 
 
+<div id="prioritizeDescrition" ><span style={{color: 'orange'}}>Array Builder </span><br/> <br/>{PrioritizePopup}
+                 <br/><br/>
+                     <div id="prioritizeButtons">
+                       <button id='prioritizeAudio'>Description</button>
+                       <button id='prioritizeCode' onClick={() => {
+        let description = document.getElementById('arrayBuilder');
+        description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
+    }}> My Solution</button>
+                     </div>
+                 </div>
+
 
 
 
