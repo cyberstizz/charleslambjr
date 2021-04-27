@@ -19,7 +19,12 @@ return (
     <React.Fragment>
 
                  <div id="title">My Toughest Challenges</div>
-                 <div id="arrayBuilderDescrition">Array Builder <br/> <br/>{arrayBuilderPopup}</div>
+                 <div id="arrayBuilderDescrition">Array Builder <br/> <br/>{arrayBuilderPopup}
+                 <div id="arrayBuilderButtons">
+                     <button></button>
+                     <button></button>
+                 </div>
+                 </div>
                  <div id="arrayBuilder"></div>
                  <div id="titleDescription">One thing I really love is pushing myself to learn and grow!
 During my experience learning as a developer i have had many ups and downs which have taught me two important things:
