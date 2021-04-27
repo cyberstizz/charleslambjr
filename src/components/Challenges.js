@@ -20,9 +20,10 @@ return (
 
                  <div id="title">My Toughest Challenges</div>
                  <div id="arrayBuilderDescrition">Array Builder <br/> <br/>{arrayBuilderPopup}
+                 <br/><br/>
                  <div id="arrayBuilderButtons">
-                     <button></button>
-                     <button></button>
+                     <button id='arrayBuilderAudio'>Description</button>
+                     <button id='arrayBuilderCode'> My Solution</button>
                  </div>
                  </div>
                  <div id="arrayBuilder"></div>
