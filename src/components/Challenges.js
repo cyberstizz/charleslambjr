@@ -29,7 +29,10 @@ return (
     }}> My Solution</button>
                  </div>
                  </div>
-                 <div id="arrayBuilder"></div>
+                 <div id="arrayBuilder" onClick={() => {
+        let description = document.getElementById('arrayBuilder');
+        description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
+    }}></div>
                  <div id="titleDescription">One thing I really love is pushing myself to learn and grow!
 During my experience learning as a developer i have had many ups and downs which have taught me two important things:
 
