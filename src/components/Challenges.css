@@ -54,6 +54,24 @@
     font-family: 'Karantina', cursive;
 }
 
+#arrayBuilderDescrition{
+    z-index: 23;
+    text-align: center;
+    height: 51.5vh;
+    width: 37vw;
+    position: absolute;
+    visibility: hidden;
+    margin-left: 35vw;
+    background-image: url('../arrayBuilder.png');
+    background-size: contain;
+    overflow: scroll;
+    font-size: 23px;
+    color: blueviolet;
+    font-weight: bolder;
+    margin-top: 9vw;
+    font-family: 'Karantina', cursive;
+}
+
 #titleDescription{
     z-index: 22;
     text-align: center;
