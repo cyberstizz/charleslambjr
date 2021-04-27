@@ -64,6 +64,9 @@
     margin-left: 35vw;
     background-color: rgb(0, 34, 102);
     overflow: scroll;
+    border-left: solid 1px orange;
+    border-bottom: solid 1px orange;
+    border-right: solid 1px orange;
     font-size: 23px;
     color: white;
     font-weight: bolder;

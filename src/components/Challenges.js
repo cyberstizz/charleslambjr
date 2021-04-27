@@ -19,20 +19,35 @@ return (
     <React.Fragment>
 
                  <div id="title">My Toughest Challenges</div>
-                 <div id="arrayBuilderDescrition">Array Builder <br/> <br/>{arrayBuilderPopup}
+
+                 {/* this code creates the element that displays the description for array builder */}
+                   <div id="arrayBuilderDescrition" ><span style={{color: 'orange'}}>Array Builder </span><br/> <br/>{arrayBuilderPopup}
                  <br/><br/>
-                 <div id="arrayBuilderButtons">
-                     <button id='arrayBuilderAudio'>Description</button>
-                     <button id='arrayBuilderCode' onClick={() => {
+                     <div id="arrayBuilderButtons">
+                       <button id='arrayBuilderAudio'>Description</button>
+                       <button id='arrayBuilderCode' onClick={() => {
         let description = document.getElementById('arrayBuilder');
         description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
     }}> My Solution</button>
+                     </div>
                  </div>
-                 </div>
+        
+        {/* this is the code that displays the div that is the screenshot for arraybuilder */}
+
                  <div id="arrayBuilder" onClick={() => {
         let description = document.getElementById('arrayBuilder');
         description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
     }}></div>
+
+
+
+
+
+
+
+
+
+
                  <div id="titleDescription">One thing I really love is pushing myself to learn and grow!
 During my experience learning as a developer i have had many ups and downs which have taught me two important things:
 
