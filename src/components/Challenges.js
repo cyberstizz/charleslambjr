@@ -38,7 +38,6 @@ and
 I learn the most valuable lessons from my most annoying mistakes unfortunately.
 Below are a few of the most important coding challenges I have ever encountered
 Because they taught me either programming patterns I did not know or triggered paradigm shifts that changed how I Handled challenges in the future. Click the icons to view these challenges and/or there respective audio descriptions where I explain exactly how I overcame them<br/> <br/>
-Oh and in case you're wondering... yes that is me in the background overcoming one of my toughest physical challenges
 
 </div>
 <div id='challengesFooter'>
