@@ -60,13 +60,12 @@
     height: 51.5vh;
     width: 37vw;
     position: absolute;
-    visibility: hidden;
+    visibility: visible;
     margin-left: 35vw;
-    background-image: url('../arrayBuilder.png');
-    background-size: contain;
+    background-color: rgb(249, 140, 31);
     overflow: scroll;
     font-size: 23px;
-    color: blueviolet;
+    color: white;
     font-weight: bolder;
     margin-top: 9vw;
     font-family: 'Karantina', cursive;
