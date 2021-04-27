@@ -23,7 +23,10 @@ return (
                  <br/><br/>
                  <div id="arrayBuilderButtons">
                      <button id='arrayBuilderAudio'>Description</button>
-                     <button id='arrayBuilderCode'> My Solution</button>
+                     <button id='arrayBuilderCode' onClick={() => {
+        let description = document.getElementById('arrayBuilder');
+        description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
+    }}> My Solution</button>
                  </div>
                  </div>
                  <div id="arrayBuilder"></div>
