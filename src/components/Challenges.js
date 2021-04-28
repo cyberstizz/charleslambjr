@@ -21,7 +21,7 @@ return (
                  <div id="title">My Toughest Challenges</div>
 
                  {/* this code creates the element that displays the description for array builder */}
-                   <div id="arrayBuilderDescrition" ><span style={{color: 'orange'}}>Array Builder </span><br/> <br/>{arrayBuilderPopup}
+                   <div id="arrayBuilderDescription" ><span style={{color: 'orange'}}>Array Builder </span><br/> <br/>{arrayBuilderPopup}
                  <br/><br/>
                      <div id="arrayBuilderButtons">
                        <button id='arrayBuilderAudio'>Description</button>
@@ -41,7 +41,10 @@ return (
 
 
 
-<div id="prioritizeDescrition" ><span style={{color: 'orange'}}>Prioritize </span><br/> <br/>{PrioritizePopup}
+{/* this is the code that displays the div that is the screenshot for prioritize */}
+
+
+<div id="prioritizeDescription" ><span style={{color: 'orange'}}>Prioritize </span><br/> <br/>{PrioritizePopup}
                  <br/><br/>
                      <div id="prioritizeButtons">
                        <button id='prioritizeAudio'>Description</button>
@@ -53,8 +56,12 @@ return (
                  </div>
 
 
+    {/* this is the code that displays the div that is the screenshot for intersection */}
 
-                 <div id="intersectionDescrition" ><span style={{color: 'orange'}}>Intersection </span><br/> <br/>{PrioritizePopup}
+
+
+
+                 <div id="intersectionDescription" ><span style={{color: 'orange'}}>Intersection </span><br/> <br/>{PrioritizePopup}
                  <br/><br/>
                      <div id="intersectionButtons">
                        <button id='intersectionAudio'>Description</button>
@@ -90,7 +97,10 @@ Because they taught me either programming patterns I did not know or triggered p
         let description = document.getElementById('prioritizeDescrition');
         description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
     }}></div>
-    <div className='challengeIcon'></div>
+    <div className='challengeIcon' onClick={() => {
+        let description = document.getElementById('intersectionDescrition');
+        description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
+    }}></div>
     <div className='challengeIcon'></div>
     <div className='challengeIcon'></div>
 
