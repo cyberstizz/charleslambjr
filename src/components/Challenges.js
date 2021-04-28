@@ -41,7 +41,7 @@ return (
 
 
 
-{/* this is the code that displays the div that is the screenshot for prioritize */}
+{/* this code creates the element that displays the description for prioritize */}
 
 
 <div id="prioritizeDescription" ><span style={{color: 'orange'}}>Prioritize </span><br/> <br/>{PrioritizePopup}
@@ -56,7 +56,7 @@ return (
                  </div>
 
 
-    {/* this is the code that displays the div that is the screenshot for intersection */}
+   {/* this code creates the element that displays the description for intersection */}
 
 
                  <div id="intersectionDescription" ><span style={{color: 'orange'}}>Intersection </span><br/> <br/>{intersectionPopup}
@@ -64,6 +64,22 @@ return (
                      <div id="intersectionButtons">
                        <button id='intersectionAudio'>Description</button>
                        <button id='intersectionCode' onClick={() => {
+        let description = document.getElementById('arrayBuilder');
+        description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
+    }}> My Solution</button>
+                     </div>
+                 </div>
+
+
+
+                  {/* this code creates the element that displays the description for find the outlier */}
+
+
+                  <div id="findTheOutlierDescription" ><span style={{color: 'orange'}}>Find The Outlier </span><br/> <br/>{findTheOutlierPopup}
+                 <br/><br/>
+                     <div id="findTheOutlierButtons">
+                       <button id='findTheOutlierAudio'>Description</button>
+                       <button id='findTheOutlierCode' onClick={() => {
         let description = document.getElementById('arrayBuilder');
         description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
     }}> My Solution</button>
