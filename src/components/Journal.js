@@ -62,7 +62,8 @@ const JournalEntry = (props) =>{
 
 return(
        <div id='entireJournalPage'>
-<JournalEntry dateTime={'April-26-2021 10:32pm'} entry={'I can say with great gratitude, that I worked hard today. Hopefully before the night concludes I hope I will complete this website, but in any case I have made great progress.'} />
+ <JournalEntry dateTime={'April-27-2021 11:11pm'} entry={'It was an interesting day today. I had some setbacks on my projects, but I learned a lot, so that makes me happy. I"ll catch up tomorrow not including media queries.'} />
+<JournalEntry dateTime={'April-26-2021 10:32pm'} entry={'I can say with great gratitude, that I worked hard today. Hopefully before the night concludes I will complete this website, but in any case I have made great progress.'} />
 <JournalEntry dateTime={'April-25-2021 10:46pm'} entry={'Even though Sunday was mu off day, I learned a lot. The best part is that I finally solved an issue I was having for weeks with the challneges page, so my mood is great.'} />
 <JournalEntry dateTime={'April-24-2021 11:43pm'} entry={'Another incredible day. Besides hitting new highs on my shoulder press I have pretty much completed the Lamb page of this portfolio.tomorrows forecast... Sunday rest'} />
 <JournalEntry dateTime={'April-23-2021 9:45pm'} entry={'What a day! spent the majority of the day practicing the pern stack and good ol typing. tomorrows forecast, more work'} />
