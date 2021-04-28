@@ -59,9 +59,7 @@ return (
     {/* this is the code that displays the div that is the screenshot for intersection */}
 
 
-
-
-                 <div id="intersectionDescription" ><span style={{color: 'orange'}}>Intersection </span><br/> <br/>{PrioritizePopup}
+                 <div id="intersectionDescription" ><span style={{color: 'orange'}}>Intersection </span><br/> <br/>{intersectionPopup}
                  <br/><br/>
                      <div id="intersectionButtons">
                        <button id='intersectionAudio'>Description</button>
@@ -98,7 +96,7 @@ Because they taught me either programming patterns I did not know or triggered p
         description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
     }}></div>
     <div className='challengeIcon' onClick={() => {
-        let description = document.getElementById('intersectionDescritpion');
+        let description = document.getElementById('intersectionDescription');
         description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
     }}></div>
     <div className='challengeIcon'></div>
