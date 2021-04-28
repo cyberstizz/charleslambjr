@@ -94,6 +94,26 @@
     font-family: 'Karantina', cursive;
 }
 
+#intersectionDescrition{
+    z-index: 23;
+    text-align: center;
+    height: 51.5vh;
+    width: 37vw;
+    position: absolute;
+    visibility: visible;
+    margin-left: 35vw;
+    background-color: rgb(0, 34, 102);
+    overflow: scroll;
+    border-left: solid 1px orange;
+    border-bottom: solid 1px orange;
+    border-right: solid 1px orange;
+    font-size: 23px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 9vw;
+    font-family: 'Karantina', cursive;
+}
+
 #titleDescription{
     z-index: 22;
     text-align: center;

@@ -54,7 +54,7 @@ return (
 
 
 
-                 <div id="intersectionDescrition" ><span style={{color: 'orange'}}>Prioritize </span><br/> <br/>{PrioritizePopup}
+                 <div id="intersectionDescrition" ><span style={{color: 'orange'}}>Intersection </span><br/> <br/>{PrioritizePopup}
                  <br/><br/>
                      <div id="intersectionButtons">
                        <button id='intersectionAudio'>Description</button>
