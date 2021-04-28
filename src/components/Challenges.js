@@ -115,7 +115,10 @@ Because they taught me either programming patterns I did not know or triggered p
         let description = document.getElementById('intersectionDescription');
         description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
     }}></div>
-    <div className='challengeIcon'></div>
+    <div className='challengeIcon'  onClick={() => {
+        let description = document.getElementById('findTheOutlierDescription');
+        description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
+    }}></div>
     <div className='challengeIcon'></div>
 
 
