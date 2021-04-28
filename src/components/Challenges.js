@@ -41,7 +41,7 @@ return (
 
 
 
-<div id="prioritizeDescrition" ><span style={{color: 'orange'}}>Array Builder </span><br/> <br/>{PrioritizePopup}
+<div id="prioritizeDescrition" ><span style={{color: 'orange'}}>Prioritize </span><br/> <br/>{PrioritizePopup}
                  <br/><br/>
                      <div id="prioritizeButtons">
                        <button id='prioritizeAudio'>Description</button>
@@ -76,7 +76,10 @@ Because they taught me either programming patterns I did not know or triggered p
         let description = document.getElementById('arrayBuilderDescrition');
         description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
     }}></div>
-    <div className='challengeIcon'></div>
+    <div className='challengeIcon' onClick={() => {
+        let description = document.getElementById('prioritizeDescrition');
+        description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
+    }}></div>
     <div className='challengeIcon'></div>
     <div className='challengeIcon'></div>
     <div className='challengeIcon'></div>
