@@ -90,15 +90,15 @@ Because they taught me either programming patterns I did not know or triggered p
 
     <div id='challengesIcons'>
     <div className='challengeIcon' onClick={() => {
-        let description = document.getElementById('arrayBuilderDescrition');
+        let description = document.getElementById('arrayBuilderDescription');
         description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
     }}></div>
     <div className='challengeIcon' onClick={() => {
-        let description = document.getElementById('prioritizeDescrition');
+        let description = document.getElementById('prioritizeDescription');
         description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
     }}></div>
     <div className='challengeIcon' onClick={() => {
-        let description = document.getElementById('intersectionDescrition');
+        let description = document.getElementById('intersectionDescritpion');
         description.style.visibility === 'hidden' ?  description.style.visibility = 'visible' : description.style.visibility = 'hidden'; 
     }}></div>
     <div className='challengeIcon'></div>
