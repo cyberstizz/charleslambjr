@@ -469,4 +469,477 @@ overflow: hidden;
   margin-left: 19vw;
 }
 
+@media only screen and (max-width: 640px){
+
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.navBar{
+  display: inline-flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 10vh;
+  position: absolute;
+  z-index: 200;
+  box-shadow: 0px -8px 40px lightgrey;
+  background-color: transparent;
+}
+
+.decorativeDiv{
+  background-color: rgb(0, 34, 102);
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: 52vw;
+  width: 70vw;
+  height: 100vh;
+  z-index: 10;
+  transform: skew(31deg);
+  overflow-x: hidden;
+}
+
+.logo{
+  margin-left: 10vw;
+  margin-top: .4vh;
+  background-image: url("./charleslamb3264.png");
+  background-size: cover;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 62px;
+  width: 280px;
+  padding-right: 10px;
+  overflow: visible;
+}
+
+.navOptions{
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: 7vw;
+  margin-top: 1.7vh;
+  padding-top: 1.4vh;
+}
+
+.home{
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.projects{
+  margin-left: 1vw;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.challenges{
+  margin-left: 1vw;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.about{
+  margin-left: 1vw;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.lamb{
+  margin-left: 1vw;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.journal{
+  margin-left: 1vw;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+
+}
+
+.home:hover{
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.projects:hover{
+  margin-left: 1vw;
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.challenges:hover{
+  margin-left: 1vw;
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.about:hover{
+  margin-left: 1vw;
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.lamb:hover{
+  margin-left: 1vw;
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+  border-right: solid rgb(134, 193, 212);
+  padding-right: 1vw;
+}
+
+.journal:hover{
+  margin-left: 1vw;
+  color: orange;
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  z-index: 10;
+
+}
+
+.leftFoldSection{
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 180px;
+  margin-left: 30px;
+  width: 40vw;
+  height: 50vh;
+  overflow: visible;
+}
+
+.socialMediaButtons{
+  width: 100px;
+  height: 200px;
+  background: white;
+  border-radius: 100px / 50px;
+  left: 35px;
+  margin-top: 42px;
+  position: absolute;
+  overflow: visible;
+}
+
+.greeting{
+  height: 8vh;
+  width: 20vw;
+  margin-top: 2rem;
+  margin-left: 9.7vw;
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: .3rem;
+  color: rgb(0, 34, 102);
+  position: absolute;
+}
+
+.name{
+  height: 8vh;
+  width: 20vw;
+  margin-top: 6rem;
+  margin-left: 9.6vw;
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.topSlogan{
+  height: 5vh;
+  width: 34vw;
+  margin-top: 10rem;
+  margin-left: 9.9vw;
+  position: absolute;
+  color: rgb(249, 140, 31);
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+  overflow: visible;
+}
+
+.bottomSlogan{
+  height: 5vh;
+  width: 34vw;
+  font-size: 17px;
+  margin-top: 12rem;
+  margin-left: 9.9vw;
+  position: absolute;
+  color: rgb(0, 34, 102);
+  font-weight: bold;
+  letter-spacing: .009rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contactArea{
+  height: 10vh;
+  width: 30vw;
+  position: absolute;
+  margin-top: 13.2rem;
+  margin-left: 9.5vw;
+  display: inline-flex;
+  overflow: visible;
+}
+
+.buttons{
+  height: 8vh;
+  width: 30vw;
+  margin-top: 18.2rem;
+  margin-left: 10vw;
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row;
+  overflow:visible;
+
+}
+
+.projectButton{
+  background-color: rgb(0, 34, 102);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  border: solid rgb(0, 26, 77);
+  overflow: visible;
+}
+
+.resumeButton{
+  background-color: rgb(249, 140, 31);
+  color: white;
+  font-weight: bolder;
+  margin-left: .1vw;
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  border: solid orange;
+}
+
+.rightFoldSection{
+  display: inline-flex;
+  flex-direction: row;
+  background-image: url('./_DPL1167-removebg-preview.png');
+  background-repeat: no-repeat;
+  margin-top: 126px;
+  margin-left: 20vw;
+  width: 30vw;
+  height: 80vh;
+  z-index: 11;
+  position: absolute;
+}
+
+.skewedBackgroundDecoration{
+  background-color: rgb(249, 140, 31);
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 190px;
+  margin-left: 4vw;
+  width: 60vw;
+  height: 50vh;
+  z-index: 10;
+  position: absolute;
+  transform: skew(25deg, 10deg);
+  overflow: scroll;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-linkedin {
+background: rgb(0, 34, 102);
+color: white;
+overflow: hidden;
+}
+
+.fa-youtube {
+background: rgb(249, 140, 31);
+color: white;
+}
+
+.fa-instagram {
+background: rgb(249, 140, 31);
+color: white;
+}
+
+.fa-github{
+  padding: 0;
+  margin-right: 350px;
+  margin-top: 25px;
+  color: rgb(249, 140, 31);
+}
+
+.githubContact{
+width: 25vw;
+height: 10vh;
+overflow: visible;
+position: absolute;
+overflow: hidden;
+}
+
+.githubInfo{
+  margin-left: 35px;
+  margin-top: 32px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.emailInfo{
+  background: rgb(0, 34, 102);
+  margin-left: 30px;
+  margin-top: 21px; 
+  width: 2vw;
+  height: 5vh;
+  position: fixed;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./download.png');
+}
+
+#highlightedEmail{
+  color: black;
+}
+
+.actualEmail{
+  position: absolute;
+  user-select: auto;
+  margin-left: 5vw;
+  margin-top: 31.5px;
+  overflow: visible;
+}
+
+#resumeDiv{
+  visibility: hidden;
+  position: absolute;
+  background-image: url("./BestCharlesLambResume.png");
+  background-position: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 10001;
+  height: 90vh;
+  width: 35vw;
+  border: solid rgb(249, 140, 31) 4px;
+  top: .2vh;
+  bottom: 10px;
+  left: 20vw;
+  overflow: visible;
+}
+
+#ResumeCloseButton{
+  background-color: rgb(249, 140, 31);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  border: solid rgb(0, 26, 77);
+  margin-top: 91vh;
+  margin-left: 19vw;
+}
+}
 
