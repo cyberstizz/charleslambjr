@@ -536,11 +536,12 @@ overflow: hidden;
   position: absolute;
   display: inline-flex;
   flex-direction: row;
-  margin-left: 72vw;
+  margin-left: 65vw;
+  margin-top: -10vh;
   width: 82vw;
   height: 100vh;
   z-index: 10;
-  transform: skew(31deg);
+  transform: skew(31deg, -20deg);
   overflow: hidden;
 }
 
