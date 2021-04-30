@@ -782,7 +782,7 @@ overflow: hidden;
 .buttons{
   height: 8vh;
   width: 45vw;
-  margin-top: 18.2rem;
+  margin-top: 23.2rem;
   margin-left: 4vw;
   position: absolute;
   display: inline-flex;
@@ -850,8 +850,8 @@ overflow: hidden;
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 30px;
-  text-align: center;
+  width: 18px;
+  text-align: lefcentert;
   text-decoration: none;
   border-radius: 50%;
 }
