@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Home = () =>{
     return (
 
-        <React.Fragment>
+        <div id='homeContainer' style={{height: '100vh', width: '100vw', overflow: 'hidden'}}>
         <div className="decorativeDiv"></div>
 
     <div className="leftFoldSection">
@@ -57,7 +57,7 @@ const Home = () =>{
           }
       } */}
       </div>
-      </React.Fragment>
+      </div>
     )
 };
 
