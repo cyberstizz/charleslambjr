@@ -835,13 +835,15 @@ overflow: hidden;
   display: inline-flex;
   flex-direction: row;
   margin-top: 190px;
-  margin-left: 4vw;
-  width: 60vw;
-  height: 50vh;
+  margin-right: 500px;
+  border: solid black 2px;
+  width: 50vw;
+  height: 30vh;
   z-index: 10;
   position: absolute;
-  transform: skew(25deg, 10deg);
-  overflow: scroll;
+  transform: skew(45deg, 30deg);
+  transform: rotate(40deg, 50deg);
+  overflow: hidden;
 }
 
 
