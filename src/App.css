@@ -746,12 +746,12 @@ overflow: hidden;
 .topSlogan{
   height: 5vh;
   width: 34vw;
-  margin-top: 10rem;
-  margin-left: 9.9vw;
+  margin-top: 9rem;
+  margin-left: 12vw;
   position: absolute;
   color: rgb(249, 140, 31);
   font-weight: bold;
-  font-size: 17px;
+  font-size: 7px;
   font-family: 'Courier New', Courier, monospace;
   overflow: visible;
 }
