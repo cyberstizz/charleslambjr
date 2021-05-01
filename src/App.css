@@ -562,7 +562,7 @@ overflow: hidden;
 .navOptions{
   display: flex;
   flex-direction: row;
-  margin-left: 1vw;
+  margin-left: .3vw;
   margin-top: 1.7vh;
   padding-top: 1.4vh;
   height: 100vh;
@@ -771,10 +771,11 @@ overflow: hidden;
 
 .contactArea{
   height: 10vh;
-  width: 30vw;
+  width: 90vw;
   position: absolute;
-  margin-top: 13.2rem;
-  margin-left: 9.5vw;
+  margin-top: 18.2rem;
+  margin-left: 5vw;
+  border: solid black 2px;
   display: inline-flex;
   overflow: visible;
 }
@@ -885,11 +886,14 @@ color: white;
 }
 
 .githubContact{
-width: 25vw;
+width: 45vw;
 height: 10vh;
 overflow: visible;
 position: absolute;
+font-size: 10px;
 overflow: hidden;
+border: solid black 2px;
+
 }
 
 .githubInfo{
@@ -897,6 +901,8 @@ overflow: hidden;
   margin-top: 32px;
   position: absolute;
   overflow: hidden;
+  border: solid black 2px;
+  font-size: 10px;
 }
 
 .emailInfo{
