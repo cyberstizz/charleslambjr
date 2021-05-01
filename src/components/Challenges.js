@@ -94,8 +94,8 @@ return (
 During my experience learning as a developer i have had many ups and downs which have taught me two important things:
 
 The learning never stops because the more I learn the more I realize I don’t know
-and
-I learn the most valuable lessons from my most annoying mistakes unfortunately.
+and unfortunately
+I learn the most valuable lessons from my most annoying mistakes.
 Below are a few of the most important coding challenges I have ever encountered
 Because they taught me either programming patterns I did not know or triggered paradigm shifts that changed how I Handled challenges in the future. Click the icons to view these challenges and/or there respective audio descriptions where I explain exactly how I overcame them<br/> <br/>
 
