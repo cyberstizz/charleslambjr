@@ -736,10 +736,10 @@ overflow: hidden;
 .name{
   height: 8vh;
   width: 20vw;
-  margin-top: 6rem;
-  margin-left: 9.6vw;
+  margin-top: 5.5rem;
+  margin-left: 15vw;
   font-family: 'Indie Flower', cursive;
-  font-size: 40px;
+  font-size: 15px;
   font-weight: bolder;
 }
 
