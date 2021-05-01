@@ -23,7 +23,7 @@ const Home = () =>{
       <br/>
       <br/>
       <div className="name">Charles Lamb Jr.</div>
-      <div className="topSlogan">A passionate software engineer from New York</div>
+      <div className="topSlogan">A passionate software engineer Bootcamp grad</div>
       <div className="bottomSlogan">with two years of web development experience</div>
       <div className="contactArea">
           <div className="githubContact">
