@@ -774,8 +774,7 @@ overflow: hidden;
   width: 90vw;
   position: absolute;
   margin-top: 18.2rem;
-  margin-left: 5vw;
-  border: solid black 2px;
+  margin-left: -5vw;
   display: inline-flex;
   overflow: visible;
 }
@@ -881,19 +880,18 @@ color: white;
 .fa-github{
   padding: 0;
   margin-right: 350px;
+  width: 25px;
   margin-top: 25px;
   color: rgb(249, 140, 31);
 }
 
 .githubContact{
-width: 45vw;
+width: 40vw;
 height: 10vh;
 overflow: visible;
 position: absolute;
 font-size: 10px;
 overflow: hidden;
-border: solid black 2px;
-
 }
 
 .githubInfo{
@@ -901,15 +899,14 @@ border: solid black 2px;
   margin-top: 32px;
   position: absolute;
   overflow: hidden;
-  border: solid black 2px;
   font-size: 10px;
 }
 
 .emailInfo{
   background: rgb(0, 34, 102);
-  margin-left: 30px;
+  margin-left: -12px;
   margin-top: 21px; 
-  width: 2vw;
+  width: 6vw;
   height: 5vh;
   position: fixed;
   overflow: hidden;
@@ -925,6 +922,7 @@ border: solid black 2px;
 .actualEmail{
   position: absolute;
   user-select: auto;
+  font-size: 10px;
   margin-left: 5vw;
   margin-top: 31.5px;
   overflow: visible;
