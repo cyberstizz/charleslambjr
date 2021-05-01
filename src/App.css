@@ -546,7 +546,7 @@ overflow: hidden;
 }
 
 .logo{
-  margin-left: 2vw;
+  margin-left: 1vw;
   margin-top: 3.5vh;
   background-image: url("./charleslamb3264.png");
   background-size: cover;
@@ -554,7 +554,7 @@ overflow: hidden;
   background-repeat: no-repeat;
   background-position: cover;
   height: 82px;
-  width: 80px;
+  width: 70px;
   padding-right: 10px;
   overflow: hidden;
 }
@@ -723,10 +723,10 @@ overflow: hidden;
 .greeting{
   height: 8vh;
   width: 20vw;
-  margin-top: 2rem;
-  margin-left: 9.7vw;
+  margin-top: 4rem;
+  margin-left: 12.7vw;
   font-family: 'Indie Flower', cursive;
-  font-size: 30px;
+  font-size: 15px;
   font-weight: bolder;
   letter-spacing: .1rem;
   color: rgb(0, 34, 102);
