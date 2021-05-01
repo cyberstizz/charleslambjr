@@ -326,7 +326,6 @@ background-color: rgb(249, 140, 31);
         height: 24vh;
         width: 100vw;
         display: flex;
-        border: solid black 2px;
         flex-direction: column;
         position: absolute;
         margin-left: 1vw;
@@ -338,9 +337,8 @@ background-color: rgb(249, 140, 31);
     height: 11vh;
     display: inline-flex;
     flex-direction: row;
-    border: solid black 2px;
     margin-left: 2vw;
-    width: 80vw;
+    width: 95vw;
     color: rgb(249, 140, 31);
     margin-top: 1vh;
     }
@@ -359,7 +357,6 @@ background-color: rgb(249, 140, 31);
         flex-direction: row;
         width: 100vw;
         margin-left: -1vw;
-        border: solid black 2px;
 
     }
     
