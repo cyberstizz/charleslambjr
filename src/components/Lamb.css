@@ -59,6 +59,8 @@
     display:inline-flex;
     background-image: url('../Mount-Everest.jpg');
     background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
     background-repeat: no-repeat;
     width: 50vw;
     height: 100vh;
