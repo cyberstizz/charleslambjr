@@ -23,7 +23,7 @@
 #lambDescriptionTitle{
     position: absolute;
     margin-top: 12vh;
-    margin-left: 14vw;
+    margin-left: 3vw;
     font-size: 35px;
     color: #062f55;
     text-align: center;
@@ -36,9 +36,9 @@
     text-align: center;
     height: 60vh;
     width: 40vw;
-    margin-top: 22vh;
-    margin-left: 2vw;
-    font-size: 28px;
+    margin-top: 21vh;
+    margin-left: 5vw;
+    font-size: 16px;
     color: #062f55;
     text-align: center;
 }

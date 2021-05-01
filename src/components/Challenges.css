@@ -313,7 +313,7 @@ background-color: rgb(249, 140, 31);
         height: 51.5vh;
         width: 67vw;
         position: absolute;
-        margin-left: 21vw;
+        margin-left: 20vw;
         font-size: 23px;
         color: white;
         font-weight: bolder;
@@ -331,7 +331,7 @@ background-color: rgb(249, 140, 31);
         position: absolute;
         margin-left: 1vw;
         color: rgb(249, 140, 31);
-        margin-top: 140.5vw;
+        margin-top: 130.5vw;
     }
     
     #challengesIcons{
@@ -357,7 +357,7 @@ background-color: rgb(249, 140, 31);
         display: flex;
         flex-direction: row;
         width: 100vw;
-        margin-left: -1vw;
+        margin-left: 1.6vw;
 
     }
     
