@@ -311,12 +311,13 @@ background-color: rgb(249, 140, 31);
         z-index: 22;
         text-align: center;
         height: 51.5vh;
-        width: 37vw;
+        width: 67vw;
         position: absolute;
-        margin-left: 35vw;
+        margin-left: 21vw;
         font-size: 23px;
         color: white;
         font-weight: bolder;
+        font-size: 15px;
         margin-top: 50vw;
         font-family: 'Karantina', cursive;
     }
