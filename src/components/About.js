@@ -42,7 +42,7 @@ return (
         <div id="aboutFooter">
 
             <div id="footerSlogan">Lets talk about joining your team!</div>
-            <div id="footerDescription">My mission is to be a part of a team that is impactful,<br /> and making a difference in the software industry</div>
+            <div id="footerDescription"> My goal is to be a member of a cutting edge team in our<br /> incredible industry. Whether it be desktop, mobile or front end I am addicted to growing and learning how to help people have a better experience</div>
             <div id="emailButton"></div>
 
         </div>
