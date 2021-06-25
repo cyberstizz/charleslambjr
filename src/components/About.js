@@ -8,10 +8,12 @@ return (
         <div id="aboutTopDecoration"></div>
         <div id='aboutSkewedDov'></div>
         <div id="aboutHeader">About</div>
-        <div id="aboutParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-optio, eaque rerum! Provident similique accusantium nemo autem. </div>
+        <div id="aboutParagraph">Hi my name is Charles Lamb jr! I am a web developer and bootcamp graduate from Nyc now living in Atlanta Georgia.
+         I have been practicing web development for 5 years but started to pursue a career 2 years ago.
+          My goal is to be member of a cutting edge team in our incredible industry. Whether it be desktop, mobile or front end I am addicted to growing and learning how to help people have a better experience on their devices.
+           Javascript is the love of my life and I just love when she arrives wearing React, however I am open to seeing her in different styles.
+            After a fairly lengthy career in the meretricious industry of high retail tech and real estate sales I have finally decided to switch careers and dedicate all of my energy and time into my true love...
+             If you are looking for a calculated dedicated and coachable jr dev that is willing to work tirelessly to become better daily I am the man for you. </div>
         <div id="skillsSection">
         <div id="skillsTitle">Skills =></div>
         <br />
