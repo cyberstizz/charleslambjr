@@ -43,9 +43,9 @@ const Home = () =>{
       </div>
       </div>
      
-      <div className="rightFoldSection">
+      <div  src={'../fourthPicAttempt.png'} className="rightFoldSection">
 
-      </div>
+</div>
 
       <div className="skewedBackgroundDecoration"></div>
       <div id="resumeDiv">

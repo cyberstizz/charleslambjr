@@ -338,11 +338,11 @@
 .rightFoldSection{
   display: inline-flex;
   flex-direction: row;
-  background-image: url('./_DPL1167-removebg-preview.png');
+  background-image: url('./fifthPicAttempt.png');
   background-repeat: no-repeat;
-  margin-top: 126px;
+  margin-top: 142px;
   margin-left: 20vw;
-  width: 30vw;
+  width: 25vw;
   height: 80vh;
   z-index: 11;
   position: absolute;
