@@ -11,7 +11,7 @@ import gutties from "../guttiesScreenshot.png";
 class Projects extends React.Component{
     constructor(props){
         super(props);
-        const guttiesLink = 'https://guttiesoutlet.herokuapp.com/';    
+        const guttiesLink = 'https://guttiesportfolioversion.herokuapp.com';    
         const squintLink = 'https://squint.netlify.app';
         const thirdLink = 'https://quickshow.netlify.app';
         const fourthLink = 'https://wizardvswitch.netlify.app';
