@@ -675,12 +675,12 @@ overflow: hidden;
 }
 
 .socialMediaButtons{
-  width: 30px;
-  height: 40px;
+  width: 60px;
+  height: 230px;
   background: white;
   border-radius: 100px / 50px;
-  left: 5px;
-  margin-top: 63px;
+  left: 12px;
+  margin-top: 33px;
   position: absolute;
   overflow: visible;
 }
@@ -688,7 +688,7 @@ overflow: hidden;
 .greeting{
   height: 8vh;
   width: 25vw;
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-left: 12.7vw;
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
@@ -701,7 +701,7 @@ overflow: hidden;
 .name{
   height: 8vh;
   width: 20vw;
-  margin-top: 6.8rem;
+  margin-top: 4.8rem;
   margin-left: 13vw;
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
@@ -711,7 +711,7 @@ overflow: hidden;
 .topSlogan{
   height: 5vh;
   width: 34vw;
-  margin-top: 11rem;
+  margin-top: 9rem;
   margin-left: 12vw;
   position: absolute;
   color: rgb(249, 140, 31);
@@ -725,7 +725,7 @@ overflow: hidden;
   height: 6vh;
   width: 34vw;
   font-size: 13px;
-  margin-top: 15rem;
+  margin-top: 13rem;
   margin-left: 12vw;
   position: absolute;
   color: rgb(0, 34, 102);
@@ -738,7 +738,7 @@ overflow: hidden;
   height: 10vh;
   width: 90vw;
   position: absolute;
-  margin-top: 20rem;
+  margin-top: 17rem;
   margin-left: -8vw;
   display: inline-flex;
   overflow: hidden;
@@ -747,8 +747,8 @@ overflow: hidden;
 .buttons{
   height: 8vh;
   width: 75vw;
-  margin-top: 26.2rem;
-  margin-left: 1vw;
+  margin-top: 22.2rem;
+  margin-left: .2vw;
   position: absolute;
   display: inline-flex;
   flex-direction: row;
@@ -786,8 +786,8 @@ overflow: hidden;
   background-image: url('./fifthPicAttempt.png');
   background-repeat: no-repeat;
   background-size: contain;
-  margin-top: 200px;
-  margin-left: 1vw;
+  margin-top: 160px;
+  margin-left: 3vw;
   width: 50vw;
   height: 50vh;
   z-index: 11;
@@ -802,11 +802,11 @@ overflow: hidden;
   margin-top: 220px;
   margin-right: 490px;
   border: solid black 2px;
-  width: 50vw;
+  width: 30vw;
   height: 30vh;
   z-index: 10;
   position: absolute;
-  transform: skew(-8deg, 35deg);
+  transform: skew(-2deg, 68deg);
   overflow: hidden;
 }
 
@@ -814,10 +814,11 @@ overflow: hidden;
 .fa {
   padding: 10px;
   font-size: 30px;
-  width: 20px;
+  width: 26px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  margin-top: .5vh;
 }
 
 .fa:hover {
