@@ -1,3 +1,5 @@
+// importing the main css file as well as React router and all routes
+
 import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar';
@@ -9,13 +11,19 @@ import Lamb from './components/Lamb';
 import Projects from './components/Projects';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+// initiating the top level component which is essentially the Switch
+
 const App = () => {  
 
   return (
     <Router>
      <div className="App">
+    {/* since the navbor will appear on every page it goes above the switch} */}
+      
        <Navbar />
     
+    {/* now the switch contains every route */}
+
       <Switch>
        <Route exact path="/"><Home /></Route>
        <Route  path="/projects"><Projects /></Route>
@@ -29,5 +37,7 @@ const App = () => {
 </Router>
   );
   }
+
+  // now exporting top level component for use in index.js
 
 export default App;

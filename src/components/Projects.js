@@ -1,3 +1,5 @@
+// importing React the card component and the cards pics as variables for easy use
+
 import React from 'react';
 import '../App.css';
 import './Projects.css';
@@ -7,10 +9,13 @@ import quickShowBackground from "../quickShowScreenshot.png";
 import wizardVsWitchBackground from "../WizardvsWitchScreenshot.png";
 import gutties from "../guttiesScreenshot.png";
 
+//Projects component is initiated as a class compnent, kept this way for nostalgia
 
 class Projects extends React.Component{
     constructor(props){
         super(props);
+        // inside the constructor creating variables for easy reference later
+
         const guttiesLink = 'https://guttiesportfolioversion.herokuapp.com';    
         const squintLink = 'https://squint.netlify.app';
         const thirdLink = 'https://quickshow.netlify.app';
@@ -19,6 +24,8 @@ class Projects extends React.Component{
         const squintGithubLink = 'https://github.com/cyberstizz/Squint';
         const thirdGithubLink = 'https://github.com/cyberstizz/Show-Api';
         const fourthGithubLink = 'https://github.com/cyberstizz/theGame';
+
+        //creating state to hold colors and background images
 
         this.state ={
             cardOneTitle: 'Gutties Outlet',
@@ -60,6 +67,8 @@ class Projects extends React.Component{
 return (
     <React.Fragment>
         <div id="projectsBackground">
+
+{/* title and headline divs followed by four Card components in succession */}
 
     <div className="projectsNavDecoratio"></div>
         <div className="projectsTitle">Projects</div>

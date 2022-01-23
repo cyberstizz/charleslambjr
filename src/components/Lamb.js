@@ -1,5 +1,10 @@
+// importing React and corresponding css file
+
 import React from 'react';
 import './Lamb.css'
+
+
+//Lamb is initiated as a functional component
 
 const Lamb = () =>{
 return (
