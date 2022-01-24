@@ -34,6 +34,14 @@ border: solid 2px black;
     font-weight: bolder;
 }
 
+button{
+    width: 8vw;
+    height: 4vh;
+    font-family: 'Permanent Marker';
+    font-size: 15px;
+    margin-right: .5vw;
+}
+
 
 @media only screen and (max-width: 640px){
     @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
