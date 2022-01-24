@@ -43,6 +43,19 @@ button{
 }
 
 
+
+#cardBody{
+    height: '37vh';
+    margin-right: '.5vw';
+    width: '22.6vw';
+    text-align: 'center';
+    position: 'relative';
+    background-position: 'center';
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+}
+
+
 @media only screen and (max-width: 640px){
     @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
@@ -88,6 +101,17 @@ button{
     font-weight: bolder;
     font-size: 12px;
 
+}
+
+#cardBody{
+    height: '12vh';
+    margin-right: '.5vw';
+    width: '22.6vw';
+    text-align: 'center';
+    position: 'relative';
+    background-position: 'center';
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
 }
 
 }
