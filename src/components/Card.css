@@ -33,3 +33,53 @@ border: solid 2px black;
     font-family: 'Indie Flower', cursive;
     font-weight: bolder;
 }
+
+
+@media only screen and (max-width: 640px){
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+#entireCardBody{
+position: relative;
+width: 20vw;
+height: 40vh;
+border: solid 2px green;
+}
+
+button{
+    width: 15vw;
+    height: 3.5vh;
+    font-family: 'Permanent Marker';
+    font-size: 10px;
+}
+
+#cardTop{
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 16vh;
+    width: 10vw;
+    border: solid 2px black;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#wholeCard{
+    height: 70vh;
+
+}
+
+#cardFooter{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    font-size: 12px;
+
+}
+
+}
