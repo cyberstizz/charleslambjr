@@ -7,7 +7,7 @@ import Card from './Card';
 import squintBackground from "../squintScreenshot.png";
 import quickShowBackground from "../quickShowScreenshot.png";
 import wizardVsWitchBackground from "../WizardvsWitchScreenshot.png";
-import gutties from "../guttiesScreenshot.png";
+import gutties from "../finalScreenshot.png";
 
 //Projects component is initiated as a class compnent, kept this way for nostalgia
 
