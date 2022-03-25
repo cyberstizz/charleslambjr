@@ -32,16 +32,20 @@ class Projects extends React.Component{
             cardOneBackgroundImage: `url(${gutties})`,
             cardOneButtonColor: 'rgb(0, 34, 102)',
             cardOneTopColor: 'rgb(249, 140, 31)',
+            cardOneTopTextColor: 'rgb(0, 34, 102)',
             cardOneLink: guttiesLink,
             cardOneGithub: guttiesGithubLink,
             cardOneFooterText: 'Authentication | Postgresql | E-commerce',
+            cardOneFooterTextColor: 'rgb(0, 34, 102)',
             cardTwoTitle: 'Squint',
             cardTwoBackgroundImage: `url(${squintBackground})`,
             cardTwoButtonColor: 'rgb(249, 140, 31)',
             cardTwoTopColor: 'rgb(0, 34, 102)',
+            cardTwoTopTextColor: 'rgb(249, 140, 31)',
             cardTwoLink: squintLink,
             cardTwoGithub: squintGithubLink,
             cardTwoFooterText: 'full CRUD',
+            cardTwoFooterTextColor: 'rgb(249, 140, 31)',
             cardThreeTitle: 'Quickshow',
             cardThreeBackgroundImage: `url(${quickShowBackground})`,
             cardThreeButtonColor: 'rgb(0, 34, 102)',
@@ -74,8 +78,8 @@ return (
         <div className="projectsTitle">Projects</div>
         <div className="projectsInfoDiv">These are a few projects I have completed recently</div>
         <div id="cardsDiv">
-        <Card title={this.state.cardOneTitle} footerText={this.state.cardOneFooterText}  github={this.state.cardOneGithub} link={this.state.cardOneLink} backgroundImage={this.state.cardOneBackgroundImage} buttonColor={this.state.cardOneButtonColor} backgroundColor={this.state.cardOneTopColor} description={this.state.cardOneDescription} /> <Card title={this.state.cardTwoTitle} footerText={this.state.cardTwoFooterText} link={this.state.cardTwoLink} github={this.state.cardTwoGithub} buttonColor={this.state.cardTwoButtonColor} backgroundImage={this.state.cardTwoBackgroundImage} description={this.state.cardTwoDescription} backgroundColor={this.state.cardTwoTopColor} /> <br/><br/><n/>
-        <Card title={this.state.cardThreeTitle} footerText={this.state.cardThreeFooterText} github={this.state.cardThreeGithub} link={this.state.cardThreeLink} backgroundImage={this.state.cardThreeBackgroundImage} buttonColor={this.state.cardThreeButtonColor} description={this.state.cardThreeDescription} backgroundColor={this.state.cardThreeTopColor} /> <Card title={this.state.cardFourTitle} footerText={this.state.cardFourFooterText} link={this.state.cardFourLink} github={this.state.cardFourGithub} description={this.state.cardFourDescription} backgroundImage={this.state.cardFourBackgroundImage} buttonColor={this.state.cardFourButtonColor} backgroundColor={this.state.cardFourTopColor} />
+        <Card topTextColor={this.state.cardOneTopTextColor} footerTextColor={this.state.cardOneFooterTextColor} title={this.state.cardOneTitle} footerText={this.state.cardOneFooterText}  github={this.state.cardOneGithub} link={this.state.cardOneLink} backgroundImage={this.state.cardOneBackgroundImage} buttonColor={this.state.cardOneButtonColor} backgroundColor={this.state.cardOneTopColor} description={this.state.cardOneDescription} /> <Card topTextColor={this.state.cardTwoTopTextColor} footerTextColor={this.state.cardTwoFooterTextColor} title={this.state.cardTwoTitle} footerText={this.state.cardTwoFooterText} link={this.state.cardTwoLink} github={this.state.cardTwoGithub} buttonColor={this.state.cardTwoButtonColor} backgroundImage={this.state.cardTwoBackgroundImage} description={this.state.cardTwoDescription} backgroundColor={this.state.cardTwoTopColor} /> <br/><br/><n/>
+        <Card topTextColor={this.state.cardOneTopTextColor} footerTextColor={this.state.cardOneFooterTextColor} title={this.state.cardThreeTitle} footerText={this.state.cardThreeFooterText} github={this.state.cardThreeGithub} link={this.state.cardThreeLink} backgroundImage={this.state.cardThreeBackgroundImage} buttonColor={this.state.cardThreeButtonColor} description={this.state.cardThreeDescription} backgroundColor={this.state.cardThreeTopColor} /> <Card topTextColor={this.state.cardTwoTopTextColor} footerTextColor={this.state.cardTwoFooterTextColor} title={this.state.cardFourTitle} footerText={this.state.cardFourFooterText} link={this.state.cardFourLink} github={this.state.cardFourGithub} description={this.state.cardFourDescription} backgroundImage={this.state.cardFourBackgroundImage} buttonColor={this.state.cardFourButtonColor} backgroundColor={this.state.cardFourTopColor} />
 
         </div>
         </div>
