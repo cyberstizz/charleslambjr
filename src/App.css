@@ -473,7 +473,7 @@ overflow: hidden;
 #resumeDiv{
   visibility: hidden;
   position: absolute;
-  background-image: url("./Charles_Lamb_newestResume.pdf");
+  background-image: url("./charleslambNewestResume.jpg");
   background-position: cover;
   background-size: 100%;
   background-repeat: no-repeat;
