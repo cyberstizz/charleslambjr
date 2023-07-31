@@ -1,6 +1,6 @@
 
 
-![](./src/main/resources/squintreadmepic.jpg)
+![](./public/IMG_1052.JPG)
 
 
 #             **Charleslambjr.com**
