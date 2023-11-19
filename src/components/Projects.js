@@ -24,6 +24,9 @@ class Projects extends React.Component{
         const squintGithubLink = 'https://github.com/cyberstizz/Squint';
         const thirdGithubLink = 'https://github.com/cyberstizz/Show-Api';
         const fourthGithubLink = 'https://github.com/cyberstizz/theGame';
+        const basicBankLink = 'https://basic-bank-49327162c5c5.herokuapp.com/';
+        const mogulFashionLink = 'https://mogulfashion-65ec42dc2783.herokuapp.com/';
+
 
         //creating state to hold colors and background images
 
@@ -42,7 +45,7 @@ class Projects extends React.Component{
             cardTwoButtonColor: 'rgb(249, 140, 31)',
             cardTwoTopColor: 'rgb(0, 34, 102)',
             cardTwoTopTextColor: 'rgb(249, 140, 31)',
-            cardTwoLink: squintLink,
+            cardTwoLink: mogulFashionLink,
             cardTwoGithub: squintGithubLink,
             cardTwoFooterText: 'full CRUD',
             cardTwoFooterTextColor: 'rgb(249, 140, 31)',
@@ -50,7 +53,7 @@ class Projects extends React.Component{
             cardThreeBackgroundImage: `url(${quickShowBackground})`,
             cardThreeButtonColor: 'rgb(0, 34, 102)',
             cardThreeTopColor: 'rgb(249, 140, 31)',
-            cardThreeLink: thirdLink,
+            cardThreeLink: basicBankLink,
             cardThreeGithub: thirdGithubLink,
             cardThreeFooterText: 'Consuming an Api with React',
             cardFourTitle: 'Wizard vs Witch',
