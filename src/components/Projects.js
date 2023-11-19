@@ -4,6 +4,7 @@ import React from 'react';
 import '../App.css';
 import './Projects.css';
 import Card from './Card';
+import basicBankImage from '../basicBankScreenshot.png';
 import squintBackground from "../squintScreenshot.png";
 import quickShowBackground from "../quickShowScreenshot.png";
 import wizardVsWitchBackground from "../WizardvsWitchScreenshot.png";
@@ -50,7 +51,7 @@ class Projects extends React.Component{
             cardTwoFooterText: 'full CRUD',
             cardTwoFooterTextColor: 'rgb(249, 140, 31)',
             cardThreeTitle: 'Quickshow',
-            cardThreeBackgroundImage: `url(${quickShowBackground})`,
+            cardThreeBackgroundImage: `url(${basicBankImage})`,
             cardThreeButtonColor: 'rgb(0, 34, 102)',
             cardThreeTopColor: 'rgb(249, 140, 31)',
             cardThreeLink: basicBankLink,
