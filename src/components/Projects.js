@@ -4,12 +4,10 @@ import React from 'react';
 import '../App.css';
 import './Projects.css';
 import Card from './Card';
-import basicBankImage from '../basicBankScreenshot.png';
-import squintBackground from "../squintScreenshot.png";
-import quickShowBackground from "../quickShowScreenshot.png";
+import basicBankImage from '../basicBankShot.png';
 import wizardVsWitchBackground from "../WizardvsWitchScreenshot.png";
-import gutties from "../finalScreenshot.png";
-import guttiesShot from "../guttiesScreenshot.png"
+import guttiesShot from "../guttiesScreenshot.png";
+import mogulFashionShot from "../mogulFashionShot.png";
 
 
 //Projects component is initiated as a class compnent, kept this way for nostalgia
@@ -34,8 +32,8 @@ class Projects extends React.Component{
         //creating state to hold colors and background images
 
         this.state ={
-            cardOneTitle: 'Gutties Outlet',
-            cardOneBackgroundImage: `url(${gutties})`,
+            cardOneTitle: 'Basic Bank',
+            cardOneBackgroundImage: `url(${basicBankImage})`,
             cardOneButtonColor: 'rgb(0, 34, 102)',
             cardOneTopColor: 'rgb(249, 140, 31)',
             cardOneTopTextColor: 'rgb(0, 34, 102)',
@@ -43,8 +41,8 @@ class Projects extends React.Component{
             cardOneGithub: guttiesGithubLink,
             cardOneFooterText: 'Authentication | Postgresql | E-commerce',
             cardOneFooterTextColor: 'rgb(0, 34, 102)',
-            cardTwoTitle: 'Squint',
-            cardTwoBackgroundImage: `url(${squintBackground})`,
+            cardTwoTitle: 'Gutties Outlet',
+            cardTwoBackgroundImage: `url(${guttiesShot})`,
             cardTwoButtonColor: 'rgb(249, 140, 31)',
             cardTwoTopColor: 'rgb(0, 34, 102)',
             cardTwoTopTextColor: 'rgb(249, 140, 31)',
@@ -52,8 +50,8 @@ class Projects extends React.Component{
             cardTwoGithub: guttiesGithubLink,
             cardTwoFooterText: 'full CRUD',
             cardTwoFooterTextColor: 'rgb(249, 140, 31)',
-            cardThreeTitle: 'Quickshow',
-            cardThreeBackgroundImage: `url(${basicBankImage})`,
+            cardThreeTitle: 'Mogul Fashions',
+            cardThreeBackgroundImage: `url(${mogulFashionShot})`,
             cardThreeButtonColor: 'rgb(0, 34, 102)',
             cardThreeTopColor: 'rgb(249, 140, 31)',
             cardThreeLink: mogulFashionLink,
