@@ -17,7 +17,7 @@ class Projects extends React.Component{
         super(props);
         // inside the constructor creating variables for easy reference later
 
-        const guttiesLink = 'https://guttiesportfolioversion.herokuapp.com';    
+        const guttiesLink = 'https://gutties-outlet-58ebc01c68c7.herokuapp.com/';    
         const squintLink = 'https://squint.netlify.app';
         const thirdLink = 'https://quickshow.netlify.app';
         const fourthLink = 'https://wizardvswitch.netlify.app';
