@@ -9,6 +9,8 @@ import squintBackground from "../squintScreenshot.png";
 import quickShowBackground from "../quickShowScreenshot.png";
 import wizardVsWitchBackground from "../WizardvsWitchScreenshot.png";
 import gutties from "../finalScreenshot.png";
+import guttiesShot from "../guttiesScreenshot.png"
+
 
 //Projects component is initiated as a class compnent, kept this way for nostalgia
 
@@ -37,7 +39,7 @@ class Projects extends React.Component{
             cardOneButtonColor: 'rgb(0, 34, 102)',
             cardOneTopColor: 'rgb(249, 140, 31)',
             cardOneTopTextColor: 'rgb(0, 34, 102)',
-            cardOneLink: guttiesLink,
+            cardOneLink: basicBankLink,
             cardOneGithub: guttiesGithubLink,
             cardOneFooterText: 'Authentication | Postgresql | E-commerce',
             cardOneFooterTextColor: 'rgb(0, 34, 102)',
@@ -46,15 +48,15 @@ class Projects extends React.Component{
             cardTwoButtonColor: 'rgb(249, 140, 31)',
             cardTwoTopColor: 'rgb(0, 34, 102)',
             cardTwoTopTextColor: 'rgb(249, 140, 31)',
-            cardTwoLink: mogulFashionLink,
-            cardTwoGithub: squintGithubLink,
+            cardTwoLink: guttiesLink,
+            cardTwoGithub: guttiesGithubLink,
             cardTwoFooterText: 'full CRUD',
             cardTwoFooterTextColor: 'rgb(249, 140, 31)',
             cardThreeTitle: 'Quickshow',
             cardThreeBackgroundImage: `url(${basicBankImage})`,
             cardThreeButtonColor: 'rgb(0, 34, 102)',
             cardThreeTopColor: 'rgb(249, 140, 31)',
-            cardThreeLink: basicBankLink,
+            cardThreeLink: mogulFashionLink,
             cardThreeGithub: thirdGithubLink,
             cardThreeFooterText: 'Consuming an Api with React',
             cardFourTitle: 'Wizard vs Witch',
@@ -64,10 +66,10 @@ class Projects extends React.Component{
             cardFourLink: fourthLink,
             cardFourGithub: fourthGithubLink,
             cardFourFooterText: 'Javascript game | vanilla js',
-            cardOneDescription: 'A goal application allowing users to sign up, enter their goals and aspirations and track them daily',
-            cardTwoDescription: 'A flashcard application based on the popular scientific study of spaced repetiton',
-            cardThreeDescription: 'A bank application that demonstrates all of the typical banking transactions',
-            cardFourDescription: 'Wizard vs Witch'
+            cardOneDescription: 'A Bank application allowing users to sign up, create and manage accounts. mixing Python/Django with React',
+            cardTwoDescription: 'An ecommerce sneaker store using postgresql and passport js for a Pern stack',
+            cardThreeDescription: 'A Mobile first fashion showcase web applicaation using a mongodb remote cluster and the Mern stack',
+            cardFourDescription: 'Wizard vs Witch a javascript video game I created years ago for fun'
         }
     }
 
