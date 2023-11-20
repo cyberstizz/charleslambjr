@@ -66,7 +66,7 @@ class Projects extends React.Component{
             cardFourFooterText: 'Javascript game | vanilla js',
             cardOneDescription: 'A goal application allowing users to sign up, enter their goals and aspirations and track them daily',
             cardTwoDescription: 'A flashcard application based on the popular scientific study of spaced repetiton',
-            cardThreeDescription: 'An application using the shows Api that allows users to find out information about their favorite shows and when they first aired quickly',
+            cardThreeDescription: 'A bank application that demonstrates all of the typical banking transactions',
             cardFourDescription: 'Wizard vs Witch'
         }
     }
