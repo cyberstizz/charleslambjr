@@ -1,0 +1,16 @@
+*{
+    background-color: black;
+    color: blue;
+    margin: 0 auto;
+    font-size: xx-large;
+    overflow: hidden;
+}
+
+.splashDiv{
+    z-index: 100;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-color: black;
+    color: blue
+}
