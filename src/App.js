@@ -8,6 +8,7 @@ import About from './components/About';
 import Challenges from './components/Challenges';
 import Journal from './components/Journal';
 import Lamb from './components/Lamb';
+import Splash from './components/Splash';
 import Projects from './components/Projects';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -25,7 +26,8 @@ const App = () => {
     {/* now the switch contains every route */}
 
       <Switch>
-       <Route exact path="/"><Home /></Route>
+       <Route exact path="/"><Splash /></Route>
+       <Route exact path="/home"><Home /></Route>
        <Route  path="/projects"><Projects /></Route>
        <Route path="/challenges"><Challenges /></Route>
        <Route path="/about"><About /></Route>
