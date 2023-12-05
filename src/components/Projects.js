@@ -8,6 +8,7 @@ import basicBankImage from '../basicBankShot.png';
 import wizardVsWitchBackground from "../WizardvsWitchScreenshot.png";
 import guttiesShot from "../guttiesScreenshot.png";
 import mogulFashionShot from "../mogulFashionShot.png";
+import Navbar from './Navbar';
 
 
 //Projects component is initiated as a class compnent, kept this way for nostalgia
@@ -74,6 +75,8 @@ class Projects extends React.Component{
     render(){
 return (
     <React.Fragment>
+        <Navbar />
+
         <div id="projectsBackground">
 
 {/* title and headline divs followed by four Card components in succession */}

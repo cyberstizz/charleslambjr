@@ -21,7 +21,6 @@ const App = () => {
      <div className="App">
     {/* since the navbor will appear on every page it goes above the switch} */}
       
-       <Navbar />
     
     {/* now the switch contains every route */}
 

@@ -1,10 +1,13 @@
 import '../App.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
 
 const Home = () =>{
     return (
+      <React.Fragment>
+      <Navbar />
 
         <div id='homeContainer' style={{height: '100vh', width: '100vw', overflow: 'hidden'}}>
         <div className="decorativeDiv"></div>
@@ -58,6 +61,7 @@ const Home = () =>{
       } */}
       </div>
       </div>
+      </React.Fragment>
     )
 };
 
