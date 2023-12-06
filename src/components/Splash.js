@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 
 const Splash = () =>{
     return (
-        <div className='splashDiv'>
+        <h2 data-text="full site coming soon!!!">
        full site coming soon!!!!
-       </div>
+       </h2>
     )
 };
 
