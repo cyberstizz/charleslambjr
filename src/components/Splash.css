@@ -1,16 +1,22 @@
 *{
-    background-color: black;
-    color: blue;
-    margin: 0 auto;
-    font-size: xx-large;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 .splashDiv{
-    z-index: 100;
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    background-color: black;
-    color: blue
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #252839;
+}
+
+h2{
+    position: relative;
+    font-size: 14vw;
+    color: #252839;
+    -webkit-text-stroke: 0.3vw #393d52;
+    text-transform: uppercase;
 }
