@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Splash = () =>{
     return (
         <div className='splashDiv'>
-        <h2 data-text="coming soon">
+        <h2 data-text="Charles Lamb Jr V2 coming December 10th">
        Charles Lamb Jr V2 coming December 10th
        </h2>
 
