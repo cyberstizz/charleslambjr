@@ -9,6 +9,10 @@ const Splash = () =>{
         <h2 data-text="Charles Lamb Jr V2 coming December 10th">
        Charles Lamb Jr V2 coming December 10th
        </h2>
+       <br/>
+       <br/>
+       <br/>
+
 
        <Link to="./home"><h3>visit old website</h3></Link>
        </div>
