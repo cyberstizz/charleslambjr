@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 const Splash = () =>{
     return (
-        <h2 data-text="full site coming soon!!!">
-       full site coming soon!!!!
+        <h2 data-text="coming soon">
+       coming soon
        </h2>
     )
 };
