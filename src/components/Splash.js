@@ -44,12 +44,12 @@ const Splash = () =>{
        <br/>
        <br/>
 
-       <Link to="./home"><button className='splashButton'><h3>visit old website</h3></button></Link>
+       <Link to="./home"><button className='splashButton'><h3>visit old site</h3></button></Link>
        </div>
 
 
         <div className='projectsDiv'>
-            <h1 style={{textAlign: "center", marginBottom: "2vh"}} >Projects</h1>
+            <h2 style={{textAlign: "center", marginBottom: "2vh"}} >Projects</h2>
 
             {projectsData.map(project => <ProjectsCard key={project.title} project={project} />)}
 

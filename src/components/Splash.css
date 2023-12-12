@@ -37,7 +37,7 @@ h2::before {
 }
 
 .projectsDiv {
-    width: 90vw;
+    width: 100vw;
     height: fit-content;
     background-color: #01fe87;
     overflow: visible;
@@ -51,6 +51,15 @@ h2::before {
     width: 100vw;
     background-color: #252839;;
     overflow: visible;
+    color: #01fe87 !important;
+}
+
+.splashButton{
+    height: 70px;
+    width: 230px;
+    background-color: #01fe87;
+    border-radius: 26px;
+    color: #383e52;
 }
 
 
