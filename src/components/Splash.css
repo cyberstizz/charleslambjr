@@ -5,12 +5,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.splashDiv{
+.splashDivTop{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     background: #252839;
 }
 
@@ -32,8 +32,48 @@ h2::before {
     color: #01fe87;
     -webkit-text-stroke: 0vw #383e52;
     border-right: 2px solid #01fe87;
-    overflow: hidden;
+    overflow: visible;
     animation: animate 6s linear infinite;
+}
+
+.projectsDiv {
+    width: 90vw;
+    height: fit-content;
+    background-color: #01fe87;
+    overflow: visible;
+    justify-self: center;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.aboutDiv {
+    height: 100vh;
+    width: 100vw;
+    background-color: #252839;;
+    overflow: visible;
+}
+
+
+
+.codingDiv {
+    height: 100%;
+    width: 75vw;
+    background-color: #01fe87;;
+    overflow: visible;
+}
+
+.contactDiv {
+    height: 100%;
+    width: 100vw;
+    background-color: black;
+    overflow: visible;
+}
+
+.footerDiv {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    overflow: visible;
 }
 
 @keyframes animate
