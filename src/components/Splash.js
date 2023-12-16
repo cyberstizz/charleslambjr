@@ -5,6 +5,7 @@ import ProjectsCard from './ProjectsCard';
 import mogulFashionShot from '../mogulFashionShot.png';
 import guttiesScreenshot from '../guttiesScreenshot.png';
 import basicBankScreenshot from '../basicBankScreenshot.png';
+import SampleCard from './SampleCard';
 
 
 
@@ -36,36 +37,38 @@ const Splash = () =>{
 
         <React.Fragment>
         <div className='splashDivTop'>
-            <h2 data-text="Charles Lamb Jr V2 coming December 15th">
-                Charles Lamb Jr V2 coming December 15th
+            <h2 data-text="Charles Lamb Jr V2 coming December 25th">
+                Charles Lamb Jr V2 coming December 25th!!!
             </h2>
       
       
        <br/>
        <br/>
 
-       <Link to="./home"><button className='splashButton'><h3>visit old site</h3></button></Link>
+       <Link to="./home"><button className='splashButton'><h4 style={{fontSize: '8vw'}}>visit old site</h4></button></Link>
        </div>
 
 
         <div className='projectsDiv'>
             <h2 style={{textAlign: "center", marginBottom: "2vh"}} >Projects</h2>
 
-            {projectsData.map(project => <ProjectsCard key={project.title} project={project} />)}
+             <SampleCard />
+
+             {projectsData.map(project => <SampleCard key={project.title} cardData={project} />)}
 
 
 
         </div>
         <div className='aboutDiv'>
-        <h2>About</h2>
+        <h3>About</h3>
 
         </div>
         <div className='codingDiv'>
-        <h2>Coding</h2>
+        <h3>Coding</h3>
 
         </div>
         <div className='contactDiv'>
-            Contact
+            <h3>Contact</h3>
         </div>
         <div className='footerDiv'></div>
 
