@@ -49,7 +49,7 @@ h3{
 
 .projectsDiv {
     width: 100vw;
-    height: fit-content;
+    height: 100vh;
     background-color: #01fe87;
     overflow: visible;
     justify-self: center;
